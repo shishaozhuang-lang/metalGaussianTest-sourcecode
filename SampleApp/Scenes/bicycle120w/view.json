@@ -1,0 +1,12 @@
+{
+  "position": [0.0, 0.08, -3.1],
+  "rotation": [0.999917, 0.01290, 0.0, 0.0],
+  "fov_degrees": 45.0,
+  "near_plane": 0.1,
+  "far_plane": 100.0,
+  "move_speed": 1.0,
+  "rotation_speed": 0.005,
+  "speed_up_scale": 5.0,
+  "super_speed_up_scale": 10.0,
+  "enable_controls": true
+}

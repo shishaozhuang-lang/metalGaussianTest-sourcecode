@@ -1,0 +1,22 @@
+.DS_Store
+xcuserdata
+DerivedData/
+.swiftpm
+.build
+.cache/
+.tmp/
+Package.resolved
+
+# Large build artifacts and local caches
+dist/
+.ios-derived/
+.ios-device-derived/
+.ios-sdk-derived/
+.xcode-derived/
+xcuserdata/
+*.xcuserstate
+
+# Large Gaussian splat datasets (multi-GB) — fetch separately, see README
+model/
+SampleApp/Scenes/*/point_cloud.ply
+
