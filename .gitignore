@@ -17,6 +17,7 @@ xcuserdata/
 *.xcuserstate
 
 # Large Gaussian splat datasets (multi-GB) — fetch separately, see README
-model/
+/model/
 SampleApp/Scenes/*/point_cloud.ply
+PLYIO/hailuo/*.ply
 

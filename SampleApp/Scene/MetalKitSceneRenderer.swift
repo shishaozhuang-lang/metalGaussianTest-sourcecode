@@ -37,7 +37,50 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
     var manualPitch: Float = 0
     var zoomScale: Float = 1
 
+    // WASD-flying camera offset (world space), applied on top of the scene view pose.
+    var cameraOffset: SIMD3<Float> = .zero
+    var lastMovementUpdateTimestamp: Date? = nil
+    // Key-up events can be lost (focus changes, alerts); drop held keys that go stale.
+    var lastKeyPressedTimestamp: Date? = nil
+
     var drawableSize: CGSize = .zero
+
+    // Keys currently held down; updated by the local keyboard event monitor.
+    var pressedKeys: Set<KeyEquivalent> = []
+
+    /// Live camera pose in "camera_world" semantics — the same values the overlay
+    /// displays. Saving writes pose_semantics: "camera_world", which loads back
+    /// as V = cameraWorld⁻¹ · calibration, reproducing the on-screen view exactly.
+    var currentCameraState: (position: [Float], rotation: [Float], fovDegrees: Float) {
+        let descriptor = self.viewport
+        // V = T·R·P·Y·C ⇒ cameraWorld = V⁻¹ = C⁻¹·(P·Y)⁻¹·R⁻¹·T⁻¹; with P, Y baked to
+        // identity, cameraWorld = C·V⁻¹. Drop the trailing C from V first: V' = V·C.
+        let commonUpCalibration = matrix4x4_rotation(radians: .pi, axis: SIMD3<Float>(0, 0, 1))
+        let cameraWorld = (descriptor.viewMatrix * commonUpCalibration).inverse
+
+        let position = SIMD3<Float>(cameraWorld.columns.3.x,
+                                    cameraWorld.columns.3.y,
+                                    cameraWorld.columns.3.z)
+        let rotation = simd_quatf(cameraWorld).normalized
+
+        let baseFov = sceneViewConfiguration?.fovDegrees ?? Float(Constants.fovy.degrees)
+        return ([position.x, position.y, position.z],
+                [rotation.real, rotation.imag.x, rotation.imag.y, rotation.imag.z],
+                baseFov / zoomScale)
+    }
+
+    // Perf recording: enabled via --perf[=PATH]; writes per-frame telemetry CSV.
+    static let perfRecordingEnabled = ProcessInfo.processInfo.arguments.contains { $0 == "--perf" || $0.hasPrefix("--perf=") }
+    var perfRecorder: PerfRecorder?
+
+    static func perfOutputPath() -> URL? {
+        for argument in ProcessInfo.processInfo.arguments {
+            if argument.hasPrefix("--perf=") {
+                return URL(fileURLWithPath: String(argument.dropFirst("--perf=".count)))
+            }
+        }
+        return URL(fileURLWithPath: "/tmp/metal-splatter-perf.csv")
+    }
 
     init?(_ metalKitView: MTKView,
           fixedRenderSize: CGSize? = nil,
@@ -62,6 +105,10 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
         metalKitView.sampleCount = 1
         metalKitView.clearColor = MTLClearColor(red: 0, green: 0, blue: 0, alpha: 0)
         self.drawableSize = metalKitView.drawableSize
+        if Self.perfRecordingEnabled, let path = Self.perfOutputPath() {
+            perfRecorder = PerfRecorder(url: path)
+            print("Perf recording to \(path.path)")
+        }
     }
 
     func load(_ model: ModelIdentifier?) async throws {
@@ -88,6 +135,28 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
             let preferSHTexture = performanceOptions?.contains(.sphericalHarmonicsTexture) ?? false
             let chunk = try SplatChunk(device: device, from: points, preferSHTexture: preferSHTexture)
             await splat.addChunk(chunk)
+            if Self.perfRecordingEnabled {
+                let recorder = perfRecorder
+                splat.onRenderTelemetry = { telemetry in
+                    recorder?.record(telemetry)
+                }
+            }
+
+            // --save-current-view: after the model settles, dump the live view
+            // parameters to stdout and exit (round-trip verification harness).
+            if ProcessInfo.processInfo.arguments.contains("--save-current-view") {
+                let renderer = self
+                Task {
+                    try? await Task.sleep(for: .seconds(3))
+                    let state = renderer.currentCameraState
+                    let json = CameraControlModel.viewConfigurationJSON(position: state.position,
+                                                                        rotation: state.rotation,
+                                                                        fovDegrees: state.fovDegrees)
+                    print("SAVE-CURRENT-VIEW:\(json.replacingOccurrences(of: "\n", with: ""))")
+                    fflush(stdout)
+                    exit(0)
+                }
+            }
             modelRenderer = splat
         case .proceduralSplat:
             let controller = try ProceduralSplatController(
@@ -130,12 +199,29 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
         if let view = sceneViewConfiguration,
            view.position.count == 3,
            view.rotation.count == 4 {
-            translationMatrix = matrix4x4_translation(view.position[0], view.position[1], view.position[2])
-            let quaternion = simd_quatf(ix: view.rotation[1],
-                                        iy: view.rotation[2],
-                                        iz: view.rotation[3],
-                                        r: view.rotation[0])
-            initialRotationMatrix = simd_float4x4(quaternion)
+            if view.isCameraWorldPose {
+                let quaternion = simd_quatf(ix: view.rotation[1],
+                                            iy: view.rotation[2],
+                                            iz: view.rotation[3],
+                                            r: view.rotation[0])
+                var cameraWorld = simd_float4x4(quaternion)
+                cameraWorld.columns.3 = SIMD4<Float>(view.position[0],
+                                                     view.position[1],
+                                                     view.position[2], 1)
+                let calibration = matrix4x4_rotation(radians: .pi, axis: SIMD3<Float>(0, 0, 1))
+                let cameraInverse = cameraWorld.inverse * calibration
+                translationMatrix = matrix4x4_translation(cameraInverse.columns.3.x,
+                                                           cameraInverse.columns.3.y,
+                                                           cameraInverse.columns.3.z)
+                initialRotationMatrix = simd_float4x4(simd_quatf(cameraInverse).normalized)
+            } else {
+                translationMatrix = matrix4x4_translation(view.position[0], view.position[1], view.position[2])
+                let quaternion = simd_quatf(ix: view.rotation[1],
+                                            iy: view.rotation[2],
+                                            iz: view.rotation[3],
+                                            r: view.rotation[0])
+                initialRotationMatrix = simd_float4x4(quaternion)
+            }
         } else {
             translationMatrix = matrix4x4_translation(0.0, 0.0, Constants.modelCenterZ)
             initialRotationMatrix = matrix_identity_float4x4
@@ -155,11 +241,27 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
 #else
         let viewMatrix = translationMatrix * initialRotationMatrix * pitchMatrix * yawMatrix * commonUpCalibration
 #endif
-        cameraControls?.updateCameraTelemetry(viewMatrix: viewMatrix)
+
+        // Compute movement against the pre-offset view matrix so direction follows
+        // the camera's (rotation-only) heading, not an offset-shifted basis.
+        updateCameraMovement(viewMatrix: viewMatrix)
+
+        var effectiveViewMatrix = viewMatrix
+        if cameraOffset != .zero {
+            // Moving the camera by +offset in world space = translating the world by -offset
+            // in the view transform, so left-multiply the inverse translation.
+            effectiveViewMatrix = matrix4x4_translation(-cameraOffset.x, -cameraOffset.y, -cameraOffset.z) * viewMatrix
+        }
+        // Only the key (focused) window updates telemetry and writes the camera
+        // state file — otherwise duplicate render windows overwrite each other's
+        // pose with whichever window happens to render last.
+        if metalKitView.window?.isKeyWindow ?? false {
+            cameraControls?.updateCameraTelemetry(viewMatrix: effectiveViewMatrix, fovyDegrees: (baseFovDegrees / zoomScale))
+        }
 
         return ModelRendererViewportDescriptor(viewport: viewport,
                                                projectionMatrix: projectionMatrix,
-                                               viewMatrix: viewMatrix,
+                                               viewMatrix: effectiveViewMatrix,
                                                screenSize: SIMD2(x: Int(renderSize.width), y: Int(renderSize.height)))
     }
 
@@ -191,20 +293,89 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
             lastRotationUpdateTimestamp = now
         }
 
-        guard cameraControls?.autoRotationEnabled ?? true,
+        guard Self.perfRecordingEnabled
+                || (cameraControls?.autoRotationEnabled ?? true),
               let lastRotationUpdateTimestamp else { return }
         rotation += Constants.rotationPerSecond * now.timeIntervalSince(lastRotationUpdateTimestamp)
     }
 
     func rotate(byX deltaX: Float, y deltaY: Float) {
+        // Full turntable rotation: no dead zone at ±90° pitch. Once pitch passes
+        // straight up/down, yaw flips direction so the view stays continuous
+        // (the world appears upside-down past the pole, which is correct).
+        let delta = deltaY * Constants.dragRotationRadiansPerPoint
+        let oldPitch = manualPitch
+        manualPitch += delta
+
+        // Handle pole crossings: |pitch| > π/2 means we are past straight up/down.
+        // Wrap pitch into [-π, π] and compensate yaw so the camera keeps turning
+        // in the direction the user is dragging.
+        if manualPitch > .pi {
+            manualPitch -= 2 * .pi
+        } else if manualPitch < -.pi {
+            manualPitch += 2 * .pi
+        }
+        let crossedPole = (oldPitch > .pi / 2 && manualPitch < .pi / 2)
+                       || (oldPitch < -.pi / 2 && manualPitch > -.pi / 2)
+        let wasPastPole = abs(oldPitch) > .pi / 2
+        let isPastPole = abs(manualPitch) > .pi / 2
+        if crossedPole || (wasPastPole != isPastPole) {
+            // Passing the pole: flip yaw continuity by adding π.
+            manualYaw += .pi
+        }
+
         manualYaw += deltaX * Constants.dragRotationRadiansPerPoint
-        manualPitch = min(.pi / 2, max(-.pi / 2,
-                                      manualPitch + deltaY * Constants.dragRotationRadiansPerPoint))
     }
 
     func zoom(by scale: Float) {
         guard scale.isFinite, scale > 0 else { return }
         zoomScale = min(4, max(0.5, zoomScale * scale))
+    }
+
+    /// Advances the WASD-flying camera offset based on currently held keys.
+    /// Movement is in the camera's local frame (post-rotation view basis).
+    private func updateCameraMovement(viewMatrix: simd_float4x4) {
+        // Drop keys held longer than 0.5 s without a repeating keyDown — the keyUp was lost.
+        if let lastPressed = lastKeyPressedTimestamp,
+           Date().timeIntervalSince(lastPressed) > 0.5 {
+            pressedKeys.removeAll()
+        }
+        let now = Date()
+        defer { lastMovementUpdateTimestamp = now }
+        guard let lastMovementUpdateTimestamp else { return }
+        guard !pressedKeys.isEmpty else { return }
+
+        let dt = Float(now.timeIntervalSince(lastMovementUpdateTimestamp))
+        guard dt > 0, dt < 1 else { return }
+
+        // View basis: right/forward/up axes of the camera in world space.
+        // viewMatrix transforms world -> camera, so rows of its rotation part
+        // (equivalently columns of the inverse) are the camera axes.
+        let cameraTransform = viewMatrix.inverse
+        let right = SIMD3<Float>(cameraTransform.columns.0.x,
+                                 cameraTransform.columns.0.y,
+                                 cameraTransform.columns.0.z)
+        let forward = SIMD3<Float>(cameraTransform.columns.2.x,
+                                   cameraTransform.columns.2.y,
+                                   cameraTransform.columns.2.z)
+        let up = SIMD3<Float>(cameraTransform.columns.1.x,
+                              cameraTransform.columns.1.y,
+                              cameraTransform.columns.1.z)
+
+        let speed: Float = 2.0  // world units per second
+        var delta = SIMD3<Float>.zero
+        for key in pressedKeys {
+            switch key {
+            case "w": delta += forward * (speed * dt)
+            case "s": delta -= forward * (speed * dt)
+            case "a": delta -= right * (speed * dt)
+            case "d": delta += right * (speed * dt)
+            case "q": delta -= up * (speed * dt)
+            case "e": delta += up * (speed * dt)
+            default: break
+            }
+        }
+        cameraOffset += delta
     }
 
     func setCameraInteractionActive(_ active: Bool) {

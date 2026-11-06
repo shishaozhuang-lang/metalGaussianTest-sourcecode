@@ -1,17 +1,22 @@
-#if os(iOS) || os(macOS)
-
+#if os(macOS)
 import SwiftUI
 import MetalKit
 
-#if os(macOS)
 private typealias ViewRepresentable = NSViewRepresentable
 #elseif os(iOS)
+import SwiftUI
+import MetalKit
+
 private typealias ViewRepresentable = UIViewRepresentable
 #endif
 
 struct MetalKitSceneView: ViewRepresentable {
     var modelIdentifier: ModelIdentifier?
     var cameraControls: CameraControlModel? = nil
+    /// Called by the save-view button to read the live camera pose directly from the renderer.
+    var onRendererAvailable: ((MetalKitSceneRenderer?) -> Void)? = nil
+    /// Invoked on ⌘S inside the render window.
+    var onCmdSave: (() -> Void)? = nil
 
     /// Optional benchmark-only render size, supplied as
     /// `--render-size WIDTHxHEIGHT` (for example, `--render-size 1080x1920`).
@@ -38,6 +43,9 @@ struct MetalKitSceneView: ViewRepresentable {
     @MainActor
     class Coordinator: NSObject {
         var renderer: MetalKitSceneRenderer?
+        var keyMonitor: Any?
+        /// Invoked on ⌘S in the render window.
+        var saveHandler: (() -> Void)?
 
 #if os(macOS)
         @objc func handlePan(_ gesture: NSPanGestureRecognizer) {
@@ -45,6 +53,51 @@ struct MetalKitSceneView: ViewRepresentable {
             let translation = gesture.translation(in: gesture.view)
             renderer?.rotate(byX: Float(translation.x), y: Float(translation.y))
             gesture.setTranslation(.zero, in: gesture.view)
+        }
+
+        func installKeyMonitor() {
+            keyMonitor = NSEvent.addLocalMonitorForEvents(matching: [.keyDown, .keyUp]) { [weak self] event in
+                guard let self, let renderer = self.renderer,
+                      let window = event.window,
+                      renderer.metalKitView.window === window else {
+                    return event
+                }
+
+                // ⌘S saves the current view — handled here because SwiftUI button
+                // shortcuts don't reach windows created via openWindow(value:).
+                if event.type == .keyDown,
+                   event.charactersIgnoringModifiers?.lowercased() == "s",
+                   event.modifierFlags.contains(.command) {
+                    self.saveHandler?()
+                    return nil
+                }
+
+                let wasdKeys: Set<Character> = ["w", "a", "s", "d", "q", "e"]
+                guard let keyChar = event.charactersIgnoringModifiers?.first,
+                      event.modifierFlags.intersection(.deviceIndependentFlagsMask).subtracting(.command).isEmpty,
+                      wasdKeys.contains(keyChar) else {
+                    return event
+                }
+                let key = KeyEquivalent(keyChar)
+
+                switch event.type {
+                case .keyDown:
+                    renderer.pressedKeys.insert(key)
+                    renderer.lastKeyPressedTimestamp = Date()
+                case .keyUp:
+                    renderer.pressedKeys.remove(key)
+                default:
+                    break
+                }
+                // Don't pass WASD through to other responders (e.g. typing in the overlay).
+                return nil
+            }
+        }
+
+        isolated deinit {
+            if let keyMonitor {
+                NSEvent.removeMonitor(keyMonitor)
+            }
         }
 #elseif os(iOS)
         @objc func handlePan(_ gesture: UIPanGestureRecognizer) {
@@ -90,10 +143,13 @@ struct MetalKitSceneView: ViewRepresentable {
         )
         coordinator.renderer = renderer
         metalKitView.delegate = renderer
+        onRendererAvailable?(renderer)
 
 #if os(macOS)
         metalKitView.addGestureRecognizer(NSPanGestureRecognizer(target: coordinator,
                                                                  action: #selector(Coordinator.handlePan(_:))))
+        coordinator.saveHandler = onCmdSave
+        coordinator.installKeyMonitor()
 #elseif os(iOS)
         let panGesture = UIPanGestureRecognizer(target: coordinator,
                                                 action: #selector(Coordinator.handlePan(_:)))
@@ -146,5 +202,3 @@ extension MetalKitSceneView.Coordinator: UIGestureRecognizerDelegate {
     }
 }
 #endif
-
-#endif // os(iOS) || os(macOS)

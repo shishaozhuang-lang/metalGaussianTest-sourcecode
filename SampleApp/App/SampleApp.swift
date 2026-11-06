@@ -12,9 +12,10 @@ struct SampleApp: App {
 
 #if os(macOS)
         WindowGroup(for: ModelIdentifier.self) { modelIdentifier in
-            MetalKitSceneView(modelIdentifier: modelIdentifier.wrappedValue)
+            SceneContainer(modelIdentifier: modelIdentifier.wrappedValue ?? .sampleBox)
                 .navigationTitle(modelIdentifier.wrappedValue?.description ?? "No Model")
         }
+        .restorationBehavior(.disabled)
 #endif // os(macOS)
 
 #if os(visionOS)
