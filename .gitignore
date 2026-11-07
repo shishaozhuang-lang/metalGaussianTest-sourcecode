@@ -21,3 +21,4 @@ xcuserdata/
 SampleApp/Scenes/*/point_cloud.ply
 PLYIO/hailuo/*.ply
 
+PLYIO/hailuo/*.mp4

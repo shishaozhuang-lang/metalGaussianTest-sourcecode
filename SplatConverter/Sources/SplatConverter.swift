@@ -197,6 +197,7 @@ enum SplatOutputFileFormat: ExpressibleByArgument {
         case .dotSplat: self = .dotSplat
         case .ply: self = .binaryPLY
         case .spz: self = .spz
+        case .mp4: return nil // MP4 is input-only
         case .none: return nil
         }
     }

@@ -17,6 +17,7 @@ public class AutodetectSceneReader: SplatSceneReader {
         case .ply: try SplatPLYSceneReader(url)
         case .dotSplat: try DotSplatSceneReader(url)
         case .spz: try SPZSceneReader(url)
+        case .mp4: try MP4SpatialVividSceneReader(url)
         case .none: throw Error.cannotDetermineFormat
         }
 

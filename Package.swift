@@ -15,6 +15,10 @@ let package = Package(
             targets: [ "PLYIO" ]
         ),
         .library(
+            name: "CZstd",
+            targets: [ "CZstd" ]
+        ),
+        .library(
             name: "SplatIO",
             targets: [ "SplatIO" ]
         ),
@@ -41,6 +45,14 @@ let package = Package(
             path: "PLYIO",
             sources: [ "Sources/" ]
         ),
+        .target(
+            name: "CZstd",
+            path: "CZstd",
+            publicHeadersPath: "include",
+            cSettings: [
+                .define("ZSTD_DISABLE_DEPRECATE_WARNINGS"),
+            ]
+        ),
         .testTarget(
             name: "PLYIOTests",
             dependencies: [ "PLYIO" ],
@@ -52,6 +64,7 @@ let package = Package(
             name: "SplatIO",
             dependencies: [
                 "PLYIO",
+                "CZstd",
                 .product(name: "spz", package: "spz-swift"),
             ],
             path: "SplatIO",
