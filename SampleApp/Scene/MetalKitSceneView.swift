@@ -17,9 +17,11 @@ struct MetalKitSceneView: ViewRepresentable {
     var onRendererAvailable: ((MetalKitSceneRenderer?) -> Void)? = nil
     /// Invoked on ⌘S inside the render window.
     var onCmdSave: (() -> Void)? = nil
+    /// Fixed render resolution from view.json (`render_resolution: [w, h]`).
+    /// Lower priority than the `--render-size` command-line override.
+    var viewResolution: CGSize? = nil
 
-    /// Optional benchmark-only render size, supplied as
-    /// `--render-size WIDTHxHEIGHT` (for example, `--render-size 1080x1920`).
+    /// Command-line render size override, `--render-size WIDTHxHEIGHT`.
     private static var requestedDrawableSize: CGSize? {
         let arguments = ProcessInfo.processInfo.arguments
         guard let optionIndex = arguments.firstIndex(of: "--render-size"),
@@ -138,7 +140,7 @@ struct MetalKitSceneView: ViewRepresentable {
 
         let renderer = MetalKitSceneRenderer(
             metalKitView,
-            fixedRenderSize: Self.requestedDrawableSize,
+            fixedRenderSize: Self.requestedDrawableSize ?? viewResolution,
             cameraControls: cameraControls
         )
         coordinator.renderer = renderer

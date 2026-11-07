@@ -1,4 +1,5 @@
 import Foundation
+import CoreGraphics
 
 /// Camera configuration loaded from a scene's `view.json`.
 /// Two pose semantics are supported:
@@ -14,6 +15,8 @@ struct SceneViewConfiguration: Codable, Sendable, Equatable, Hashable {
     var farPlane: Float
     /// "view" (default) or "camera_world".
     var poseSemantics: String?
+    /// Fixed render resolution [width, height]; absent = window size.
+    var renderResolution: [Int]?
 
     enum CodingKeys: String, CodingKey {
         case position
@@ -22,9 +25,16 @@ struct SceneViewConfiguration: Codable, Sendable, Equatable, Hashable {
         case nearPlane = "near_plane"
         case farPlane = "far_plane"
         case poseSemantics = "pose_semantics"
+        case renderResolution = "render_resolution"
     }
 
     var isCameraWorldPose: Bool { poseSemantics == "camera_world" }
+
+    /// Fixed render size from `render_resolution: [w, h]`, if valid.
+    var renderSize: CGSize? {
+        guard let r = renderResolution, r.count == 2, r[0] > 0, r[1] > 0 else { return nil }
+        return CGSize(width: r[0], height: r[1])
+    }
 
     static func load(from url: URL) -> SceneViewConfiguration? {
         guard let data = try? Data(contentsOf: url) else { return nil }

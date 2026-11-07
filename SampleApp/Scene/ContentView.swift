@@ -72,6 +72,11 @@ struct SceneContainer: View {
     @StateObject private var cameraControls = CameraControlModel()
     @State private var liveRenderer: MetalKitSceneRenderer?
 
+    private var viewConfiguration: SceneViewConfiguration? {
+        guard case .gaussianSplat(_, let config) = modelIdentifier else { return nil }
+        return config
+    }
+
     private var isPerfRun: Bool {
         ProcessInfo.processInfo.arguments.contains { $0 == "--perf" || $0.hasPrefix("--perf=") }
     }
@@ -81,7 +86,8 @@ struct SceneContainer: View {
             MetalKitSceneView(modelIdentifier: modelIdentifier,
                               cameraControls: cameraControls,
                               onRendererAvailable: { liveRenderer = $0 },
-                              onCmdSave: { saveCurrentView() })
+                              onCmdSave: { saveCurrentView() },
+                              viewResolution: viewConfiguration?.renderSize)
 
             if !isPerfRun {
                 VStack(alignment: .leading, spacing: 8) {

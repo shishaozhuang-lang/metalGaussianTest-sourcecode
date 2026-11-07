@@ -1,17 +1,21 @@
 {
-  "far_plane" : 100,
-  "fov_degrees" : 65,
-  "near_plane" : 0.1,
-  "pose_semantics" : "camera_world",
-  "position" : [
-    -0.0186652,
-    2.02355,
-    -2.6871
+  "far_plane": 1000,
+  "fov_degrees": 90,
+  "near_plane": 0.001,
+  "pose_semantics": "camera_world",
+  "position": [
+    0.075183,
+    -3.273184,
+    -0.772163
   ],
-  "rotation" : [
+  "rotation": [
     -0.836453,
     -0.546823,
     0.0305441,
     -0.0199679
+  ],
+  "render_resolution": [
+    1600,
+    900
   ]
 }
