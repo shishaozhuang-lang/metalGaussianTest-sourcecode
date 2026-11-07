@@ -563,7 +563,7 @@ struct EGSCDecoder {
                     let groupSize = Int(patch[0])
                     let mins = Array(patch[1...min(comp, patch.count-1)])
                     let maxs = Array(patch[min(comp, patch.count-1)+1...min(2*comp, patch.count-1)])
-                    for p in 0..<groupSize where groupOffset + p < q.count {
+                    for p in 0..<groupSize*comp where groupOffset + p < q.count {
                         let idx = groupOffset + p
                         let c = idx % comp
                         let mn = c < mins.count ? mins[c] : 0
