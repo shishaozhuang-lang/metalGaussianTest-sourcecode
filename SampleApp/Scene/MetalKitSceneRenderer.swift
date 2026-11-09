@@ -76,10 +76,23 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
     static func perfOutputPath() -> URL? {
         for argument in ProcessInfo.processInfo.arguments {
             if argument.hasPrefix("--perf=") {
-                return URL(fileURLWithPath: String(argument.dropFirst("--perf=".count)))
+                var path = String(argument.dropFirst("--perf=".count))
+                #if os(iOS)
+                // iOS sandbox: bare filenames resolve into the app's Documents directory.
+                if !path.hasPrefix("/") {
+                    let docs = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+                    path = docs?.appendingPathComponent(path).path ?? path
+                }
+                #endif
+                return URL(fileURLWithPath: path)
             }
         }
+        #if os(iOS)
+        return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?
+            .appendingPathComponent("perf.csv")
+        #else
         return URL(fileURLWithPath: "/tmp/metal-splatter-perf.csv")
+        #endif
     }
 
     init?(_ metalKitView: MTKView,
@@ -104,6 +117,10 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
 #endif
         metalKitView.sampleCount = 1
         metalKitView.clearColor = MTLClearColor(red: 0, green: 0, blue: 0, alpha: 0)
+        // Render every frame (continuous loop), never pausing when occluded or
+        // backgrounded — required for consistent performance measurement.
+        metalKitView.isPaused = false
+        metalKitView.enableSetNeedsDisplay = false
         self.drawableSize = metalKitView.drawableSize
         if Self.perfRecordingEnabled, let path = Self.perfOutputPath() {
             perfRecorder = PerfRecorder(url: path)

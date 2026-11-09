@@ -146,6 +146,18 @@ struct SceneContainer: View {
             print("Failed to save camera view: \(error.localizedDescription)")
         }
     }
+    #else
+    private func saveCurrentView() {
+        // iOS sandbox: save next to the model inside the app's documents directory
+        guard case .gaussianSplat(let url, _) = modelIdentifier else { return }
+        guard let renderer = liveRenderer else { return }
+        let state = renderer.currentCameraState
+        let viewURL = url.deletingLastPathComponent().appendingPathComponent("view.json")
+        let json = CameraControlModel.viewConfigurationJSON(position: state.position,
+                                                            rotation: state.rotation,
+                                                            fovDegrees: state.fovDegrees)
+        try? json.write(to: viewURL, atomically: true, encoding: .utf8)
+    }
     #endif
 }
 #endif
@@ -347,12 +359,18 @@ struct ContentView: View {
         }
 #elseif os(iOS)
         .onAppear {
-            openDefaultSceneIfNeeded()
+            if !openCommandLineModelIfNeeded() {
+                // No --model argument: land on the picker instead of a bundled scene.
+                let hasModel = ProcessInfo.processInfo.arguments.contains("--model")
+                if !hasModel {
+                    // keep default bundled-scene behavior for interactive launches
+                    openDefaultSceneIfNeeded()
+                }
+            }
         }
 #endif
     }
 
-#if os(macOS)
     private static var didOpenCommandLineModelOnce = false
 
     private func openCommandLineModelIfNeeded() -> Bool {
@@ -363,16 +381,31 @@ struct ContentView: View {
 
         Self.didOpenCommandLineModelOnce = true
         didOpenCommandLineModel = true
+        // iOS: models pushed via devicectl live in the app's Documents directory;
+        // a bare filename resolves there automatically.
+        #if os(iOS)
+        var path = arguments[flagIndex + 1]
+        if !path.hasPrefix("/") {
+            let docs = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
+            path = docs?.appendingPathComponent(path).path ?? path
+        }
+        let url = URL(fileURLWithPath: path)
+        #else
         let url = URL(fileURLWithPath: arguments[flagIndex + 1])
+        #endif
         let viewURL = url.deletingLastPathComponent().appendingPathComponent("view.json")
         let viewConfiguration = SceneViewConfiguration.load(from: viewURL)
         if viewConfiguration == nil {
             print("No view.json found next to model; starting from default camera pose.")
         }
+        #if os(iOS)
+        // iOS has no openWindow; push onto the navigation path instead.
+        navigationPath.append(ModelIdentifier.gaussianSplat(url, viewConfiguration))
+        #else
         openWindow(value: ModelIdentifier.gaussianSplat(url, viewConfiguration))
+        #endif
         return true
     }
-#endif
 
     private func openDefaultSceneIfNeeded() {
         guard !didOpenDefaultScene else { return }
