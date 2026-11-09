@@ -73,6 +73,23 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
     static let perfRecordingEnabled = ProcessInfo.processInfo.arguments.contains { $0 == "--perf" || $0.hasPrefix("--perf=") }
     var perfRecorder: PerfRecorder?
 
+    /// --no-present skips present() so the render loop is not gated by the
+    /// display vsync — measures pure pipeline throughput.
+    static let noPresentEnabled = ProcessInfo.processInfo.arguments.contains("--no-present")
+
+    /// --max-fps=N: frame-rate cap (N>0); --max-fps=0: uncapped peak-throughput mode.
+    static func requestedMaxFPS() -> Int? {
+        for argument in ProcessInfo.processInfo.arguments {
+            if argument.hasPrefix("--max-fps=") {
+                return Int(argument.dropFirst("--max-fps=".count))
+            }
+            if argument == "--max-fps" {
+                return 0
+            }
+        }
+        return nil
+    }
+
     static func perfOutputPath() -> URL? {
         for argument in ProcessInfo.processInfo.arguments {
             if argument.hasPrefix("--perf=") {
@@ -121,6 +138,16 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
         // backgrounded — required for consistent performance measurement.
         metalKitView.isPaused = false
         metalKitView.enableSetNeedsDisplay = false
+        // --max-fps=N: cap at N fps; --max-fps=0 uncaps (timer-driven, may exceed
+        // display vsync — used to measure peak rendering throughput).
+        if let maxFPS = Self.requestedMaxFPS() {
+            if maxFPS == 0 {
+                // 0 = uncapped: run the timer as fast as the render loop allows
+                metalKitView.preferredFramesPerSecond = 240
+            } else {
+                metalKitView.preferredFramesPerSecond = maxFPS
+            }
+        }
         self.drawableSize = metalKitView.drawableSize
         if Self.perfRecordingEnabled, let path = Self.perfOutputPath() {
             perfRecorder = PerfRecorder(url: path)
@@ -173,6 +200,26 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
                     fflush(stdout)
                     exit(0)
                 }
+            }
+            // --benchmark-frames=N: peak offscreen throughput measurement
+            var benchmarkFrames = 0
+            for argument in ProcessInfo.processInfo.arguments {
+                if argument.hasPrefix("--benchmark-frames=") {
+                    benchmarkFrames = Int(argument.dropFirst("--benchmark-frames=".count)) ?? 0
+                }
+            }
+            if benchmarkFrames > 0 {
+                modelRenderer = splat
+                let renderer = self
+                Task { @MainActor in
+                    // warm-up: first sort must complete so the renderer is ready
+                    for _ in 0..<120 {
+                        if renderer.modelRenderer?.isReadyToRender == true { break }
+                        try? await Task.sleep(for: .milliseconds(100))
+                    }
+                    renderer.runFrameBenchmark(frames: benchmarkFrames)
+                }
+                return
             }
             modelRenderer = splat
         case .proceduralSplat:
@@ -477,6 +524,51 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
         }
     }
 
+    /// --benchmark-frames=N: after loading, render N frames back-to-back to an
+    /// offscreen texture (no drawable, no vsync) and report peak throughput.
+    private func runFrameBenchmark(frames: Int) {
+        let width = Int(fixedRenderSize?.width ?? drawableSize.width)
+        let height = Int(fixedRenderSize?.height ?? drawableSize.height)
+        guard width > 0, height > 0 else { return }
+        let descriptor = MTLTextureDescriptor.texture2DDescriptor(pixelFormat: metalKitView.colorPixelFormat,
+                                                                   width: width, height: height, mipmapped: false)
+        descriptor.usage = [.renderTarget]
+        descriptor.storageMode = .private
+        guard let texture = device.makeTexture(descriptor: descriptor) else { return }
+
+        print("BENCH: rendering \(frames) frames at \(width)x\(height) offscreen…", terminator: ""); fflush(stdout)
+        let start = DispatchTime.now()
+        var rendered = 0
+        for _ in 0..<frames {
+            guard let commandBuffer = commandQueue.makeCommandBuffer() else { break }
+            _ = inFlightSemaphore.wait(timeout: DispatchTime.distantFuture)
+            let semaphore = inFlightSemaphore
+            commandBuffer.addCompletedHandler { @Sendable _ in semaphore.signal() }
+            do {
+                let ok = try modelRenderer?.render(viewports: [viewport],
+                                                   colorTexture: texture,
+                                                   colorStoreAction: .dontCare,
+                                                   depthTexture: nil,
+                                                   rasterizationRateMap: nil,
+                                                   renderTargetArrayLength: 0,
+                                                   to: commandBuffer) ?? false
+                if ok { rendered += 1 }
+            } catch {
+                break
+            }
+            commandBuffer.commit()
+        }
+        // Drain: wait until all in-flight buffers completed (semaphore back to full)
+        for _ in 0..<Constants.maxSimultaneousRenders {
+            _ = inFlightSemaphore.wait(timeout: DispatchTime.distantFuture)
+            inFlightSemaphore.signal()
+        }
+        let elapsed = Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) / 1e9
+        let fps = elapsed > 0 ? Double(rendered) / elapsed : 0
+        let frameMs = rendered > 0 ? elapsed / Double(rendered) * 1000 : 0
+        print("BENCH-RESULT: \(rendered) frames in \(String(format: "%.3f", elapsed))s → \(String(format: "%.1", fps)) FPS (frame \(String(format: "%.3f", frameMs)) ms)", terminator: ""); fflush(stdout)
+    }
+
     func draw(in view: MTKView) {
         guard let modelRenderer, modelRenderer.isReadyToRender else { return }
         guard let drawable = view.currentDrawable else { return }
@@ -517,7 +609,11 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
                                    sourceTexture: colorTexture,
                                    destinationTexture: drawable.texture)
             }
-            commandBuffer.present(drawable)
+            // --no-present skips present() so the render loop is not gated by the
+            // display vsync — measures pure pipeline throughput (encode + GPU execute).
+            if !Self.noPresentEnabled {
+                commandBuffer.present(drawable)
+            }
         }
 
         commandBuffer.commit()
