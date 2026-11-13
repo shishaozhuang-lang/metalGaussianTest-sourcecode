@@ -1,0 +1,19 @@
+[16:37:04] === 开始 ply-540 (hailuo/point_cloud.ply @ 540x960) ===
+[16:37:07]     ply-540: BENCH-RESULT: 300 frames in 1.616s → 185.7 FPS (frame 5.386 ms)The app terminated with the exit code 0.
+[16:37:07]     ply-540: 静置冷却 30s…
+[16:37:37] === 开始 ply-1080 (hailuo/point_cloud.ply @ 1080x1920) ===
+[16:37:40]     ply-1080: BENCH-RESULT: 300 frames in 2.439s → 123.0 FPS (frame 8.130 ms)The app terminated with the exit code 0.
+[16:37:40]     ply-1080: 静置冷却 30s…
+[16:38:10] === 开始 morton-540 (hailuo/point_cloud_morton.ply @ 540x960) ===
+[16:38:13]     morton-540: BENCH-RESULT: 300 frames in 1.610s → 186.4 FPS (frame 5.366 ms)The app terminated with the exit code 0.
+[16:38:13]     morton-540: 静置冷却 30s…
+[16:38:43] === 开始 morton-1080 (hailuo/point_cloud_morton.ply @ 1080x1920) ===
+[16:38:46]     morton-1080: BENCH-RESULT: 300 frames in 2.436s → 123.2 FPS (frame 8.120 ms)The app terminated with the exit code 0.
+[16:38:46]     morton-1080: 静置冷却 30s…
+[16:39:16] === 开始 mp4-540 (hailuo/point_cloud_morton_spatial_vivid_first_view.mp4 @ 540x960) ===
+[16:39:18]     mp4-540: BENCH-RESULT: 300 frames in 1.408s → 213.1 FPS (frame 4.694 ms)The app terminated with the exit code 0.
+[16:39:18]     mp4-540: 静置冷却 30s…
+[16:39:48] === 开始 mp4-1080 (hailuo/point_cloud_morton_spatial_vivid_first_view.mp4 @ 1080x1920) ===
+[16:39:51]     mp4-1080: BENCH-RESULT: 300 frames in 2.268s → 132.3 FPS (frame 7.560 ms)The app terminated with the exit code 0.
+[16:39:51]     mp4-1080: 静置冷却 30s…
+[16:40:21] 全部完成。结果: /Users/huawei/Desktop/ssz/metalGaussianTest-sourcecode/dist/performance-rerun/bench-results.txt

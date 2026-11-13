@@ -1,0 +1,6 @@
+ply-540: BENCH-RESULT: 300 frames in 1.616s → 185.7 FPS (frame 5.386 ms)The app terminated with the exit code 0.
+ply-1080: BENCH-RESULT: 300 frames in 2.439s → 123.0 FPS (frame 8.130 ms)The app terminated with the exit code 0.
+morton-540: BENCH-RESULT: 300 frames in 1.610s → 186.4 FPS (frame 5.366 ms)The app terminated with the exit code 0.
+morton-1080: BENCH-RESULT: 300 frames in 2.436s → 123.2 FPS (frame 8.120 ms)The app terminated with the exit code 0.
+mp4-540: BENCH-RESULT: 300 frames in 1.408s → 213.1 FPS (frame 4.694 ms)The app terminated with the exit code 0.
+mp4-1080: BENCH-RESULT: 300 frames in 2.268s → 132.3 FPS (frame 7.560 ms)The app terminated with the exit code 0.

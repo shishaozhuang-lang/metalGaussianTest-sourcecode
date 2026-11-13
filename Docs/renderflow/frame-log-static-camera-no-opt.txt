@@ -1,0 +1,2238 @@
+[frame 1] SKIP: modelRenderer nil or not ready to render
+[frame 2] SKIP: modelRenderer nil or not ready to render
+[frame 3] SKIP: modelRenderer nil or not ready to render
+[frame 4] SKIP: modelRenderer nil or not ready to render
+[frame 5] SKIP: modelRenderer nil or not ready to render
+[frame 6] SKIP: modelRenderer nil or not ready to render
+[frame 7] SKIP: modelRenderer nil or not ready to render
+[frame 8] SKIP: modelRenderer nil or not ready to render
+[frame 9] SKIP: modelRenderer nil or not ready to render
+[frame 10] SKIP: modelRenderer nil or not ready to render
+[frame 11] SKIP: modelRenderer nil or not ready to render
+[frame 12] SKIP: modelRenderer nil or not ready to render
+[frame 13] SKIP: modelRenderer nil or not ready to render
+[frame 14] SKIP: modelRenderer nil or not ready to render
+[frame 15] SKIP: modelRenderer nil or not ready to render
+[frame 16] SKIP: modelRenderer nil or not ready to render
+[frame 17] SKIP: modelRenderer nil or not ready to render
+[frame 18] SKIP: modelRenderer nil or not ready to render
+[frame 19] SKIP: modelRenderer nil or not ready to render
+[frame 20] SKIP: modelRenderer nil or not ready to render
+[frame 21] SKIP: modelRenderer nil or not ready to render
+[frame 22] SKIP: modelRenderer nil or not ready to render
+[frame 23] SKIP: modelRenderer nil or not ready to render
+[frame 24] SKIP: modelRenderer nil or not ready to render
+[frame 25] SKIP: modelRenderer nil or not ready to render
+[frame 26] SKIP: modelRenderer nil or not ready to render
+[frame 27] SKIP: modelRenderer nil or not ready to render
+[frame 28] SKIP: modelRenderer nil or not ready to render
+[frame 29] SKIP: modelRenderer nil or not ready to render
+[frame 30] SKIP: modelRenderer nil or not ready to render
+[frame 31] SKIP: modelRenderer nil or not ready to render
+[frame 32] SKIP: modelRenderer nil or not ready to render
+[frame 33] SKIP: modelRenderer nil or not ready to render
+[frame 34] SKIP: modelRenderer nil or not ready to render
+[frame 35] SKIP: modelRenderer nil or not ready to render
+[frame 36] SKIP: modelRenderer nil or not ready to render
+[frame 37] SKIP: modelRenderer nil or not ready to render
+[frame 38] SKIP: modelRenderer nil or not ready to render
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=1.062ms
+[frame 39] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.116ms
+[frame 40] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 41] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.319 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 42] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 43] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 44] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.605 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 45] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 46] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 47] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.345 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 48] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 49] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 50] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.638 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 51] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 52] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.073 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.041ms
+[frame 53] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 54] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 55] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.245 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 56] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 57] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 58] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.356 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 59] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 60] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.042ms
+[frame 61] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.380 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 62] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 63] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 64] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.285 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 65] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 66] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 67] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 47.953 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 68] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 69] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 70] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.301 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 71] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 72] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 73] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.466 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 74] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 75] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 76] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.212 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.035ms
+[frame 77] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.045ms
+[frame 78] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 79] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.633 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 80] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 81] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 82] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.503 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 83] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 84] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 47.961 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 85] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 86] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 87] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.368 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 88] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.043ms
+[frame 89] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.046ms
+[frame 90] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.346 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.046ms
+[frame 91] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 92] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 93] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.458 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 94] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 95] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 96] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.390 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 97] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 98] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 99] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.325 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 100] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 101] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 102] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.214 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 103] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 104] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 105] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.520 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 106] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 107] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 108] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.217 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 109] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 110] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 111] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.230 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 112] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 113] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.168 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 114] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 115] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 116] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 47.987 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 117] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 118] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 119] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.583 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 120] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 121] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 122] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.569 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.049ms
+[frame 123] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 124] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 125] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.830 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 126] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 127] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 128] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.256 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 129] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.044ms
+[frame 130] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 131] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.592 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 132] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 133] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 134] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.017 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 135] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 136] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 137] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.227 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 138] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.012ms
+[frame 139] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 140] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.587 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 141] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 142] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.335 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 143] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 144] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 145] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.320 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 146] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 147] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 148] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.335 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 149] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 150] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 151] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.154 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 152] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 153] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 154] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.345 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 155] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 156] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 157] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.571 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 158] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 159] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 160] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.316 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 161] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.045ms
+[frame 162] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.042ms
+[frame 163] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.477 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 164] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 165] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 166] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.330 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 167] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 168] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.049ms
+[frame 169] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.589 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 170] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 171] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 172] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.623 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 173] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 174] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 175] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.443 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 176] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 177] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.509 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 178] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 179] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 180] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.379 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 181] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 182] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 183] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.586 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 184] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 185] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 186] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.550 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 187] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 188] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 189] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.068 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 190] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 191] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 192] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.296 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 193] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 194] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 195] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.390 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 196] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 197] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 198] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.769 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 199] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 200] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 201] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.427 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 202] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 203] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 204] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.444 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 205] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 206] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 207] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.534 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 208] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 209] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 210] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.370 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 211] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 212] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 213] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.667 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 214] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.047ms
+[frame 215] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.047ms
+[frame 216] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.263 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 217] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 218] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.266 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 219] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 220] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 221] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.719 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.047ms
+[frame 222] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.042ms
+[frame 223] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 224] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.786 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 225] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 226] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 227] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.520 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 228] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 229] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 230] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.493 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 231] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 232] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 233] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.693 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 234] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 235] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 236] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.558 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 237] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 238] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 239] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.614 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 240] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 241] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 242] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.685 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 243] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 244] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 245] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.611 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 246] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 247] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 248] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.509 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 249] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 250] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 251] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.045 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 252] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 253] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.986 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 254] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 255] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 256] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.692 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 257] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 258] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 259] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.566 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.041ms
+[frame 260] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 261] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 262] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.234 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 263] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 264] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.041ms
+[frame 265] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.105 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 266] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 267] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 268] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.715 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 269] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.049ms
+[frame 270] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.044ms
+[frame 271] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.658 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 272] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 273] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 274] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.815 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 275] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 276] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 277] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.065 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 278] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 279] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 280] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.538 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 281] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.039ms
+[frame 282] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 283] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.769 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 284] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 285] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 286] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.928 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 287] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 288] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 289] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.678 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 290] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 291] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 292] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.927 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 293] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 294] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 295] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.636 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 296] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 297] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 298] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.791 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 299] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 300] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 301] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.502 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 302] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 303] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.446 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 304] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 305] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 306] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.619 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 307] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 308] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.039ms
+[frame 309] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.791 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 310] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 311] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 312] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.757 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 313] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 314] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 315] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.069 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 316] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 317] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 318] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.948 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 319] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 320] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 321] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.485 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 322] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 323] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 324] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.548 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 325] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 326] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 327] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.442 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 328] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 329] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 330] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.751 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 331] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 332] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 333] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.938 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 334] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 335] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 336] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.632 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 337] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 338] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 339] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.799 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 340] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 341] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.042ms
+[frame 342] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.195 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.041ms
+[frame 343] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 344] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 345] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.918 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 346] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 347] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 348] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.885 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 349] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 350] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 351] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.434 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 352] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 353] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.777 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 354] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 355] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 356] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.453 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 357] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.050ms
+[frame 358] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 359] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.574 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 360] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 361] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 362] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.860 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 363] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 364] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 365] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.946 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 366] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 367] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 368] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.106 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 369] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 370] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 371] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.397 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 372] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 373] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 374] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.104 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 375] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 376] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 377] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.547 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 378] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 379] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 380] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.055 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 381] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 382] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 383] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.946 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 384] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 385] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 386] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.801 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 387] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 388] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 389] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.969 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 390] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 391] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 392] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.773 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 393] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 394] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 395] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.919 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 396] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 397] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 398] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.916 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 399] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 400] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.733 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 401] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 402] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.046ms
+[frame 403] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.146 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 404] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 405] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.048ms
+[frame 406] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.304 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 407] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 408] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 409] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.911 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 410] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 411] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 412] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.841 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 413] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 414] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 415] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.671 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 416] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 417] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 418] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.713 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 419] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 420] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 421] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.018 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 422] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 423] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 424] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.785 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 425] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 426] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 427] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.288 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 428] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 429] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 430] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.819 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 431] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 432] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 433] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.720 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 434] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 435] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 436] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.870 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 437] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 438] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 439] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.895 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 440] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 441] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.053ms
+[frame 442] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.746 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.039ms
+[frame 443] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.043ms
+[frame 444] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 445] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.624 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 446] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 447] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 448] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.481 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 449] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 450] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.468 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 451] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 452] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 453] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.840 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 454] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 455] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 456] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.986 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 457] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 458] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 459] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.915 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 460] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 461] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 462] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.971 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.050ms
+[frame 463] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 464] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 465] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.839 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 466] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 467] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 468] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.653 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 469] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 470] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 471] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.691 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 472] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 473] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 474] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.034 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 475] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 476] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 477] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.702 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 478] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 479] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 480] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.821 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 481] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 482] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 483] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.645 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 484] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 485] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 486] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.011 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 487] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 488] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 489] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.959 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 490] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 491] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.633 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 492] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 493] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 494] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.749 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 495] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 496] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 497] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.708 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 498] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 499] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 500] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.305 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 501] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 502] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 503] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.011 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 504] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 505] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 506] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.770 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 507] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 508] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 509] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.900 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 510] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 511] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 512] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.715 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 513] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 514] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 515] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.811 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 516] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 517] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 518] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.654 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 519] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 520] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 521] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.788 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 522] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.048ms
+[frame 523] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 524] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.020 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 525] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 526] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 527] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.274 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 528] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 529] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 530] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.914 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 531] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 532] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 533] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.700 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 534] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 535] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 536] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.276 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 537] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 538] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.991 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 539] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 540] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 541] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.691 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 542] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 543] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.046ms
+[frame 544] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.616 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 545] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 546] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 547] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.208 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 548] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 549] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 550] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.820 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 551] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 552] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 553] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.915 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 554] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 555] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 556] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.783 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 557] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 558] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 559] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.011 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 560] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 561] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 562] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.302 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 563] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 564] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 565] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.035 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 566] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 567] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 568] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.258 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 569] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 570] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 571] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.178 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 572] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 573] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 574] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.091 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 575] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 576] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 577] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.070 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 578] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 579] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 580] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.409 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 581] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 582] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.050ms
+[frame 583] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.401 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 584] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 585] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 586] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.054 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.039ms
+[frame 587] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 588] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 589] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.315 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 590] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 591] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 592] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.078 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.035ms
+[frame 593] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 594] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.188 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 595] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 596] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.034ms
+[frame 597] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.880 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.035ms
+[frame 598] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 599] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 600] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.115 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 601] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 602] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.035ms
+[frame 603] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.247 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 604] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 605] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 606] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.856 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 607] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 608] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 609] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.904 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 610] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 611] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 612] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.841 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 613] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 614] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 615] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.988 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 616] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 617] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 618] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.001 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 619] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 620] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 621] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.874 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 622] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 623] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 624] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.938 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.043ms
+[frame 625] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.043ms
+[frame 626] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.042ms
+[frame 627] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 50.934 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 628] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 629] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 630] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 50.518 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 631] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 632] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 633] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.999 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 634] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 635] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 636] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.073 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 637] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 638] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 639] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.185 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 640] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 641] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 642] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.967 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 643] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 644] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 645] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.236 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 646] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 647] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 648] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.205 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 649] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 650] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 651] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.112 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 652] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.011ms
+[frame 653] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 654] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.110 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 655] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 656] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 657] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.047 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 658] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 659] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 660] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.890 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 661] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 662] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 663] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.055 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 664] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 665] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 666] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.008 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 667] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 668] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 669] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.244 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 670] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 671] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 672] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.238 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 673] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 674] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 675] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.785 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 676] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 677] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 678] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.951 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 679] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 680] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.869 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.036ms
+[frame 681] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 682] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 683] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.829 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.050ms
+[frame 684] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 685] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 686] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.469 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 687] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 688] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 689] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.278 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 690] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 691] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.033ms
+[frame 692] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.467 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 693] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 694] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 695] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.364 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 696] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 697] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 698] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.253 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 699] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 700] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.039ms
+[frame 701] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.170 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 702] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 703] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.040ms
+[frame 704] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.318 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 705] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 706] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 707] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.125 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 708] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 709] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 710] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.984 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 711] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 712] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 713] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.176 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 714] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 715] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 716] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.327 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 717] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 718] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 719] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.178 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 720] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 721] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 722] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.191 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 723] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 724] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 725] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.082 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 726] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 727] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 728] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.483 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.038ms
+[frame 729] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.029ms
+[frame 730] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 731] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.634 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 732] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 733] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 734] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.175 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 735] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 736] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 737] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.257 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 738] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 739] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 740] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.344 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 741] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 742] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 743] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.310 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 744] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.013ms
+[frame 745] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 746] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.050 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 747] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 748] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 749] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.326 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 750] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 751] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.947 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 752] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 753] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 754] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 48.968 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.035ms
+[frame 755] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 756] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 757] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.371 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 758] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 759] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 760] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.188 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 761] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 762] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 763] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.331 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.038ms
+[frame 764] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 765] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 766] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.792 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.021ms
+[frame 767] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 768] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 769] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.147 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 770] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 771] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 772] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.206 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 773] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 774] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.037ms
+[frame 775] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.193 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.031ms
+[frame 776] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 777] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 778] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.189 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 779] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 780] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 781] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.052 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.027ms
+[frame 782] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 783] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 784] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.369 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 785] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 786] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 787] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.017 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 788] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 789] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 790] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.213 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 791] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 792] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 793] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.034 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 794] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 795] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 796] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.616 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 797] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 798] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 799] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.327 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 800] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 801] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 802] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.126 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 803] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 804] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 805] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.222 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 806] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 807] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 808] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.139 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.014ms
+[frame 809] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 810] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.015ms
+[frame 811] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.375 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 812] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 813] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 814] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.356 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 815] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 816] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.237 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 817] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 818] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 819] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.047 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 820] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 821] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.039ms
+[frame 822] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.415 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 823] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.048ms
+[frame 824] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 825] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.992 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 826] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 827] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 828] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.111 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 829] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 830] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 831] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.116 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 832] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 833] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 834] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.126 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 835] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.032ms
+[frame 836] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 837] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.623 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 838] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.026ms
+[frame 839] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 840] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.242 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.024ms
+[frame 841] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.030ms
+[frame 842] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.023ms
+[frame 843] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.362 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.022ms
+[frame 844] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 845] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 846] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.341 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.020ms
+[frame 847] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 848] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 849] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.299 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.019ms
+[frame 850] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.016ms
+[frame 851] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 852] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.349 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 853] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.018ms
+[frame 854] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.028ms
+[frame 855] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.522 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.025ms
+[frame 856] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 857] OK (full pipeline ran)
+render OK: splats=1153429 indexed=1024 instances=1127 chunks=1 multiStage=true encode=0.017ms
+[frame 858] OK (full pipeline ran)
+sort DONE: 1153429 visible of 1153429 total, 49.381 ms
+sort START: 1153429 splats (pose-changed or invalidated)
+render OK: splats=1153429 indexed=1024 instan

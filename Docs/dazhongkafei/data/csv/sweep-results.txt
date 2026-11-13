@@ -1,0 +1,33 @@
+# dazhongkafei 瓶颈分析扫描原始结果 (2026-11-11, 冷态离屏 benchmark, iPhone 每轮 60s+ 冷却)
+# SH 阶数扫描 (540x960, 300帧):
+Mac   SH3(默认): 78.9 FPS (12.669 ms)
+Mac   sh1:       77.8 FPS (12.849 ms)
+Mac   sh0:       78.4 FPS (12.757 ms)
+iPhone SH3(默认): 52.3 FPS (19.108 ms)  [冷却后基线; 热态虚高至 28.97ms]
+iPhone sh1:      54.8 FPS (18.242 ms)
+iPhone sh0:      56.3 FPS (17.774 ms)
+
+# 分辨率扫描 (SH3, 200-300帧):
+Mac    270x480:  74.6 FPS (13.399 ms)
+Mac    540x960:  78.4 FPS (12.750 ms)
+Mac   1080x1920: 67.9 FPS (14.727 ms)
+Mac   2160x3840: 37.5 FPS (26.650 ms) / 200帧: 37.6 (26.601)
+iPhone  270x480: 60.3 FPS (16.574 ms)
+iPhone  540x960: 52.3 FPS (19.108 ms)  [540 复测 52.9 (18.913) 昨日]
+iPhone 1440x2560: 31.7 FPS (31.542 ms)
+iPhone 2160x3840: 20.0 FPS (49.898 ms)
+iPhone 1080x1920: 40.0 FPS (24.983 ms)  [昨日]
+
+# SH0/SH1 @2160 Mac (顶点带宽分离测试):
+Mac 2160 SH3: 37.6 FPS (26.611 ms)
+Mac 2160 sh0: 37.5 FPS (26.641 ms)
+Mac 2160 sh1: 37.1 FPS (26.937 ms)
+
+# 模型规模扫描 (Mac, benchmark):
+Mac hailuo    540x960:  308.9 FPS (3.237 ms)   可见 429,240 splats
+Mac hailuo   2160x3840:  96.8 FPS (10.332 ms)
+Mac dzk      540x960:   79.5 FPS (12.585 ms)   可见 1,482,523 splats
+Mac dzk     2160x3840:  37.6 FPS (26.601 ms)
+
+# 长稳态 (1000/3000 帧) Mac 540:
+1000帧: 79.0 FPS (12.654 ms); 3000帧: 78.7 FPS (12.703 ms) — 无降频漂移

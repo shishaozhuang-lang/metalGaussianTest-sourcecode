@@ -1,0 +1,20 @@
+[19:49:50] 540 started
+[20:19:59] 540 done:    53040 lines
+[20:20:16] 540 hot-tail 100帧: BENCH-RESULT: 100 frames in 3.053s → 32.8 FPS (frame 30.529 ms)The app terminated with the exit code 0.
+[20:20:25] 540 finished, cooling 5min for 1080...
+[20:25:26] 1080 started
+[20:55:35] 1080 done:    36360 lines
+[20:55:54] 1080 hot-tail 100帧: BENCH-RESULT: 100 frames in 4.846s → 20.6 FPS (frame 48.456 ms)The app terminated with the exit code 0.
+[19:55:47] 540: 13559 frames
+[20:00:48] 540: 22559 frames
+[20:05:49] 540: 30959 frames
+[20:10:50] 540: 39119 frames
+[20:15:51] 540: 46799 frames
+[20:20:52] 540: 53279 frames
+[20:25:53] 540: 53279 frames
+[20:30:54] 540: 53279 frames
+[20:33:04] 1080: 10559 frames
+[20:38:05] 1080: 16799 frames
+[20:43:06] 1080: 22679 frames
+[20:48:06] 1080: 28319 frames
+[20:53:07] 1080: 33719 frames

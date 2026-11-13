@@ -1,0 +1,6 @@
+mac-ply-540:   BENCH-RESULT: 300 frames in 0.971s -> 309.0 FPS (frame 3.236 ms)
+mac-ply-1080:  BENCH-RESULT: 300 frames in 1.401s -> 214.2 FPS (frame 4.669 ms)
+mac-morton-540:  BENCH-RESULT: 300 frames in 0.959s -> 312.8 FPS (frame 3.197 ms)
+mac-morton-1080: BENCH-RESULT: 300 frames in 1.397s -> 214.8 FPS (frame 4.657 ms)
+mac-mp4-540:   BENCH-RESULT: 300 frames in 0.868s -> 345.8 FPS (frame 2.892 ms)
+mac-mp4-1080:  BENCH-RESULT: 300 frames in 1.332s -> 225.3 FPS (frame 4.439 ms)

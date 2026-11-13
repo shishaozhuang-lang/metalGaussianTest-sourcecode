@@ -1,0 +1,1915 @@
+[frame 1] SKIP: modelRenderer nil or not ready to render
+[frame 2] SKIP: modelRenderer nil or not ready to render
+[frame 3] SKIP: modelRenderer nil or not ready to render
+[frame 4] SKIP: modelRenderer nil or not ready to render
+[frame 5] SKIP: modelRenderer nil or not ready to render
+[frame 6] SKIP: modelRenderer nil or not ready to render
+[frame 7] SKIP: modelRenderer nil or not ready to render
+[frame 8] SKIP: modelRenderer nil or not ready to render
+[frame 9] SKIP: modelRenderer nil or not ready to render
+[frame 10] SKIP: modelRenderer nil or not ready to render
+[frame 11] SKIP: modelRenderer nil or not ready to render
+[frame 12] SKIP: modelRenderer nil or not ready to render
+[frame 13] SKIP: modelRenderer nil or not ready to render
+[frame 14] SKIP: modelRenderer nil or not ready to render
+[frame 15] SKIP: modelRenderer nil or not ready to render
+[frame 16] SKIP: modelRenderer nil or not ready to render
+[frame 17] SKIP: modelRenderer nil or not ready to render
+[frame 18] SKIP: modelRenderer nil or not ready to render
+[frame 19] SKIP: modelRenderer nil or not ready to render
+[frame 20] SKIP: modelRenderer nil or not ready to render
+[frame 21] SKIP: modelRenderer nil or not ready to render
+[frame 22] SKIP: modelRenderer nil or not ready to render
+[frame 23] SKIP: modelRenderer nil or not ready to render
+[frame 24] SKIP: modelRenderer nil or not ready to render
+[frame 25] SKIP: modelRenderer nil or not ready to render
+[frame 26] SKIP: modelRenderer nil or not ready to render
+[frame 27] SKIP: modelRenderer nil or not ready to render
+[frame 28] SKIP: modelRenderer nil or not ready to render
+[frame 29] SKIP: modelRenderer nil or not ready to render
+[frame 30] SKIP: modelRenderer nil or not ready to render
+[frame 31] SKIP: modelRenderer nil or not ready to render
+[frame 32] SKIP: modelRenderer nil or not ready to render
+[frame 33] SKIP: modelRenderer nil or not ready to render
+[frame 34] SKIP: modelRenderer nil or not ready to render
+[frame 35] SKIP: modelRenderer nil or not ready to render
+[frame 36] SKIP: modelRenderer nil or not ready to render
+[frame 37] SKIP: modelRenderer nil or not ready to render
+[frame 38] SKIP: modelRenderer nil or not ready to render
+[frame 39] SKIP: modelRenderer nil or not ready to render
+[frame 40] SKIP: modelRenderer nil or not ready to render
+[frame 41] SKIP: modelRenderer nil or not ready to render
+[frame 42] SKIP: modelRenderer nil or not ready to render
+[frame 43] SKIP: modelRenderer nil or not ready to render
+[frame 44] SKIP: modelRenderer nil or not ready to render
+[frame 45] SKIP: modelRenderer nil or not ready to render
+[frame 46] SKIP: modelRenderer nil or not ready to render
+[frame 47] SKIP: modelRenderer nil or not ready to render
+[frame 48] SKIP: modelRenderer nil or not ready to render
+[frame 49] SKIP: modelRenderer nil or not ready to render
+[frame 50] SKIP: modelRenderer nil or not ready to render
+[frame 51] SKIP: modelRenderer nil or not ready to render
+[frame 52] SKIP: modelRenderer nil or not ready to render
+[frame 53] SKIP: modelRenderer nil or not ready to render
+[frame 54] SKIP: modelRenderer nil or not ready to render
+[frame 55] SKIP: modelRenderer nil or not ready to render
+[frame 56] SKIP: modelRenderer nil or not ready to render
+[frame 57] SKIP: modelRenderer nil or not ready to render
+[frame 58] SKIP: modelRenderer nil or not ready to render
+[frame 59] SKIP: modelRenderer nil or not ready to render
+[frame 60] SKIP: modelRenderer nil or not ready to render
+[frame 61] SKIP: modelRenderer nil or not ready to render
+[frame 62] SKIP: modelRenderer nil or not ready to render
+[frame 63] SKIP: modelRenderer nil or not ready to render
+[frame 64] SKIP: modelRenderer nil or not ready to render
+[frame 65] SKIP: modelRenderer nil or not ready to render
+[frame 66] SKIP: modelRenderer nil or not ready to render
+[frame 67] SKIP: modelRenderer nil or not ready to render
+[frame 68] SKIP: modelRenderer nil or not ready to render
+[frame 69] SKIP: modelRenderer nil or not ready to render
+[frame 70] SKIP: modelRenderer nil or not ready to render
+sort START: 1996180 splats (pose-changed or invalidated)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.989ms
+[frame 71] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.160ms
+[frame 72] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.054ms
+[frame 73] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.033ms
+[frame 74] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.023ms
+[frame 75] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.018ms
+[frame 76] OK (full pipeline ran)
+sort DONE: 1996180 visible of 1996180 total, 100.217 ms
+sort START: 1996180 splats (pose-changed or invalidated)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.016ms
+[frame 77] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.021ms
+[frame 78] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.019ms
+[frame 79] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1996180 indexed=1024 instances=1950 chunks=1 multiStage=true encode=0.020ms
+[frame 80] OK (full pipeline ran)
+sort DONE: 1482523 visible of 1996180 total, 68.532 ms
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.035ms
+[frame 81] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.027ms
+[frame 82] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.015ms
+[frame 83] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.012ms
+[frame 84] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.019ms
+[frame 85] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.014ms
+[frame 86] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.028ms
+[frame 87] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 88] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.016ms
+[frame 89] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.017ms
+[frame 90] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.133ms
+[frame 91] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.138ms
+[frame 92] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.275ms
+[frame 93] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.130ms
+[frame 94] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.073ms
+[frame 95] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 96] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 97] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.100ms
+[frame 98] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.111ms
+[frame 99] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.173ms
+[frame 100] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 101] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.068ms
+[frame 102] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.055ms
+[frame 103] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.159ms
+[frame 104] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.147ms
+[frame 105] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.109ms
+[frame 106] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.156ms
+[frame 107] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.169ms
+[frame 108] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.134ms
+[frame 109] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.066ms
+[frame 110] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.165ms
+[frame 111] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.105ms
+[frame 112] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.023ms
+[frame 113] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.056ms
+[frame 114] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.058ms
+[frame 115] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.022ms
+[frame 116] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.011ms
+[frame 117] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 118] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.016ms
+[frame 119] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.014ms
+[frame 120] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 121] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.016ms
+[frame 122] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.065ms
+[frame 123] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.090ms
+[frame 124] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 125] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.143ms
+[frame 126] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.280ms
+[frame 127] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.194ms
+[frame 128] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.119ms
+[frame 129] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.144ms
+[frame 130] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 131] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.204ms
+[frame 132] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 133] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.160ms
+[frame 134] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.141ms
+[frame 135] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.109ms
+[frame 136] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 137] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.178ms
+[frame 138] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.088ms
+[frame 139] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 140] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.060ms
+[frame 141] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.134ms
+[frame 142] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 143] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.088ms
+[frame 144] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.109ms
+[frame 145] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.079ms
+[frame 146] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.129ms
+[frame 147] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.154ms
+[frame 148] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 149] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.126ms
+[frame 150] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 151] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 152] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.139ms
+[frame 153] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.133ms
+[frame 154] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 155] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 156] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.151ms
+[frame 157] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.063ms
+[frame 158] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.055ms
+[frame 159] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.120ms
+[frame 160] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 161] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.034ms
+[frame 162] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.105ms
+[frame 163] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.034ms
+[frame 164] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 165] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.023ms
+[frame 166] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.028ms
+[frame 167] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.013ms
+[frame 168] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.030ms
+[frame 169] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 170] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.019ms
+[frame 171] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.017ms
+[frame 172] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 173] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.044ms
+[frame 174] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.124ms
+[frame 175] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.086ms
+[frame 176] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.125ms
+[frame 177] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.119ms
+[frame 178] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.194ms
+[frame 179] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.091ms
+[frame 180] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.151ms
+[frame 181] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.151ms
+[frame 182] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.154ms
+[frame 183] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.183ms
+[frame 184] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.050ms
+[frame 185] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 186] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 187] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 188] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.158ms
+[frame 189] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.098ms
+[frame 190] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.091ms
+[frame 191] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 192] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.160ms
+[frame 193] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.181ms
+[frame 194] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.097ms
+[frame 195] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.106ms
+[frame 196] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 197] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.090ms
+[frame 198] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.074ms
+[frame 199] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 200] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.101ms
+[frame 201] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 202] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 203] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.044ms
+[frame 204] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.098ms
+[frame 205] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.128ms
+[frame 206] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.122ms
+[frame 207] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 208] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.180ms
+[frame 209] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 210] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.173ms
+[frame 211] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.179ms
+[frame 212] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 213] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.039ms
+[frame 214] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 215] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.147ms
+[frame 216] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.070ms
+[frame 217] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.152ms
+[frame 218] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 219] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.111ms
+[frame 220] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.128ms
+[frame 221] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.121ms
+[frame 222] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.147ms
+[frame 223] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 224] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.133ms
+[frame 225] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.065ms
+[frame 226] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.184ms
+[frame 227] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.166ms
+[frame 228] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.111ms
+[frame 229] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.151ms
+[frame 230] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 231] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 232] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.119ms
+[frame 233] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.061ms
+[frame 234] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.059ms
+[frame 235] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.143ms
+[frame 236] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 237] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.072ms
+[frame 238] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.253ms
+[frame 239] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.080ms
+[frame 240] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.160ms
+[frame 241] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.212ms
+[frame 242] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.180ms
+[frame 243] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.067ms
+[frame 244] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.162ms
+[frame 245] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.191ms
+[frame 246] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 247] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.168ms
+[frame 248] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.123ms
+[frame 249] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.091ms
+[frame 250] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.174ms
+[frame 251] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.143ms
+[frame 252] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 253] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.123ms
+[frame 254] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.053ms
+[frame 255] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.092ms
+[frame 256] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.079ms
+[frame 257] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.072ms
+[frame 258] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 259] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.075ms
+[frame 260] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.038ms
+[frame 261] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.057ms
+[frame 262] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.152ms
+[frame 263] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.086ms
+[frame 264] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.145ms
+[frame 265] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 266] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.136ms
+[frame 267] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 268] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.067ms
+[frame 269] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.152ms
+[frame 270] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 271] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 272] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.122ms
+[frame 273] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.075ms
+[frame 274] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.261ms
+[frame 275] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 276] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.214ms
+[frame 277] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.095ms
+[frame 278] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.067ms
+[frame 279] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.036ms
+[frame 280] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.024ms
+[frame 281] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.024ms
+[frame 282] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.021ms
+[frame 283] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.024ms
+[frame 284] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.020ms
+[frame 285] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 286] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.163ms
+[frame 287] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.054ms
+[frame 288] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.119ms
+[frame 289] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.134ms
+[frame 290] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.055ms
+[frame 291] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.028ms
+[frame 292] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.017ms
+[frame 293] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.019ms
+[frame 294] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.016ms
+[frame 295] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.021ms
+[frame 296] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.068ms
+[frame 297] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.274ms
+[frame 298] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.036ms
+[frame 299] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.077ms
+[frame 300] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.049ms
+[frame 301] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.027ms
+[frame 302] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.037ms
+[frame 303] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.019ms
+[frame 304] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.014ms
+[frame 305] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 306] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.016ms
+[frame 307] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.017ms
+[frame 308] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.070ms
+[frame 309] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.063ms
+[frame 310] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.170ms
+[frame 311] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.159ms
+[frame 312] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.137ms
+[frame 313] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.101ms
+[frame 314] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.118ms
+[frame 315] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 316] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.141ms
+[frame 317] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 318] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 319] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.115ms
+[frame 320] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 321] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 322] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 323] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.156ms
+[frame 324] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.055ms
+[frame 325] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 326] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.092ms
+[frame 327] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.117ms
+[frame 328] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.112ms
+[frame 329] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.095ms
+[frame 330] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.154ms
+[frame 331] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.080ms
+[frame 332] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 333] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.165ms
+[frame 334] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 335] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.088ms
+[frame 336] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.169ms
+[frame 337] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 338] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.136ms
+[frame 339] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 340] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.126ms
+[frame 341] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.125ms
+[frame 342] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.094ms
+[frame 343] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.153ms
+[frame 344] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.121ms
+[frame 345] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 346] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.067ms
+[frame 347] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.109ms
+[frame 348] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 349] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.194ms
+[frame 350] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.174ms
+[frame 351] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.164ms
+[frame 352] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.024ms
+[frame 353] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.034ms
+[frame 354] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.134ms
+[frame 355] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.062ms
+[frame 356] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.075ms
+[frame 357] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 358] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 359] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.070ms
+[frame 360] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.062ms
+[frame 361] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 362] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.072ms
+[frame 363] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.160ms
+[frame 364] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 365] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 366] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.102ms
+[frame 367] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.145ms
+[frame 368] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 369] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.077ms
+[frame 370] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.063ms
+[frame 371] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.073ms
+[frame 372] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.103ms
+[frame 373] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.063ms
+[frame 374] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.066ms
+[frame 375] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.132ms
+[frame 376] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.073ms
+[frame 377] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.073ms
+[frame 378] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.134ms
+[frame 379] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.050ms
+[frame 380] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.088ms
+[frame 381] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.121ms
+[frame 382] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 383] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.190ms
+[frame 384] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.109ms
+[frame 385] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.138ms
+[frame 386] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.062ms
+[frame 387] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.065ms
+[frame 388] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.122ms
+[frame 389] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.046ms
+[frame 390] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.130ms
+[frame 391] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 392] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.056ms
+[frame 393] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 394] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.105ms
+[frame 395] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.139ms
+[frame 396] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.098ms
+[frame 397] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 398] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.144ms
+[frame 399] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.176ms
+[frame 400] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.074ms
+[frame 401] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.139ms
+[frame 402] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.198ms
+[frame 403] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.034ms
+[frame 404] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.042ms
+[frame 405] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.017ms
+[frame 406] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.068ms
+[frame 407] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.166ms
+[frame 408] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.145ms
+[frame 409] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.193ms
+[frame 410] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.200ms
+[frame 411] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.088ms
+[frame 412] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 413] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.101ms
+[frame 414] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 415] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.057ms
+[frame 416] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 417] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.053ms
+[frame 418] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.164ms
+[frame 419] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.098ms
+[frame 420] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.144ms
+[frame 421] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.117ms
+[frame 422] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.157ms
+[frame 423] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 424] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.167ms
+[frame 425] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.113ms
+[frame 426] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.123ms
+[frame 427] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 428] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.140ms
+[frame 429] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.086ms
+[frame 430] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.157ms
+[frame 431] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 432] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 433] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 434] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.060ms
+[frame 435] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 436] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.155ms
+[frame 437] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 438] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.054ms
+[frame 439] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 440] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 441] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.068ms
+[frame 442] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 443] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.159ms
+[frame 444] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.201ms
+[frame 445] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.075ms
+[frame 446] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.037ms
+[frame 447] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.080ms
+[frame 448] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.029ms
+[frame 449] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.055ms
+[frame 450] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.033ms
+[frame 451] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.013ms
+[frame 452] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.013ms
+[frame 453] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.013ms
+[frame 454] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.017ms
+[frame 455] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.025ms
+[frame 456] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.020ms
+[frame 457] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.029ms
+[frame 458] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.052ms
+[frame 459] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.168ms
+[frame 460] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 461] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.159ms
+[frame 462] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 463] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.141ms
+[frame 464] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.074ms
+[frame 465] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.166ms
+[frame 466] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.153ms
+[frame 467] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.086ms
+[frame 468] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.123ms
+[frame 469] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.135ms
+[frame 470] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.092ms
+[frame 471] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.091ms
+[frame 472] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.092ms
+[frame 473] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.189ms
+[frame 474] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.138ms
+[frame 475] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 476] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.102ms
+[frame 477] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.093ms
+[frame 478] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.138ms
+[frame 479] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.161ms
+[frame 480] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.153ms
+[frame 481] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.174ms
+[frame 482] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.040ms
+[frame 483] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.051ms
+[frame 484] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.052ms
+[frame 485] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.078ms
+[frame 486] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.062ms
+[frame 487] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.059ms
+[frame 488] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.077ms
+[frame 489] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 490] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 491] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.068ms
+[frame 492] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.137ms
+[frame 493] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.069ms
+[frame 494] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.127ms
+[frame 495] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 496] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.112ms
+[frame 497] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.113ms
+[frame 498] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.098ms
+[frame 499] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.065ms
+[frame 500] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 501] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.094ms
+[frame 502] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.115ms
+[frame 503] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.111ms
+[frame 504] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.069ms
+[frame 505] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.112ms
+[frame 506] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.132ms
+[frame 507] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 508] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.133ms
+[frame 509] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.123ms
+[frame 510] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.113ms
+[frame 511] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 512] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.169ms
+[frame 513] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.116ms
+[frame 514] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.163ms
+[frame 515] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.099ms
+[frame 516] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.095ms
+[frame 517] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.184ms
+[frame 518] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.138ms
+[frame 519] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 520] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.151ms
+[frame 521] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.166ms
+[frame 522] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.162ms
+[frame 523] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.104ms
+[frame 524] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.119ms
+[frame 525] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.072ms
+[frame 526] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.086ms
+[frame 527] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.135ms
+[frame 528] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.187ms
+[frame 529] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 530] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.149ms
+[frame 531] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.177ms
+[frame 532] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.181ms
+[frame 533] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.033ms
+[frame 534] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.050ms
+[frame 535] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.033ms
+[frame 536] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.073ms
+[frame 537] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.144ms
+[frame 538] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 539] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.074ms
+[frame 540] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.184ms
+[frame 541] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.159ms
+[frame 542] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.090ms
+[frame 543] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.111ms
+[frame 544] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.097ms
+[frame 545] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.086ms
+[frame 546] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.120ms
+[frame 547] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.099ms
+[frame 548] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.141ms
+[frame 549] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.103ms
+[frame 550] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.100ms
+[frame 551] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.186ms
+[frame 552] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.174ms
+[frame 553] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.057ms
+[frame 554] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.111ms
+[frame 555] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.074ms
+[frame 556] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.177ms
+[frame 557] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.106ms
+[frame 558] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.072ms
+[frame 559] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.153ms
+[frame 560] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.089ms
+[frame 561] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.062ms
+[frame 562] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.120ms
+[frame 563] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.081ms
+[frame 564] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.143ms
+[frame 565] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 566] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.130ms
+[frame 567] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 568] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.058ms
+[frame 569] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.171ms
+[frame 570] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.243ms
+[frame 571] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 572] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.094ms
+[frame 573] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.114ms
+[frame 574] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.122ms
+[frame 575] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.063ms
+[frame 576] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.094ms
+[frame 577] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.167ms
+[frame 578] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.070ms
+[frame 579] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.157ms
+[frame 580] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.122ms
+[frame 581] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.183ms
+[frame 582] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.040ms
+[frame 583] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.097ms
+[frame 584] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.037ms
+[frame 585] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.159ms
+[frame 586] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.068ms
+[frame 587] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.164ms
+[frame 588] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.120ms
+[frame 589] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.106ms
+[frame 590] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.151ms
+[frame 591] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.135ms
+[frame 592] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.156ms
+[frame 593] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.103ms
+[frame 594] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.103ms
+[frame 595] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.094ms
+[frame 596] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 597] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.112ms
+[frame 598] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.164ms
+[frame 599] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.065ms
+[frame 600] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.124ms
+[frame 601] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 602] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.101ms
+[frame 603] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.112ms
+[frame 604] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.127ms
+[frame 605] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.181ms
+[frame 606] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.092ms
+[frame 607] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.057ms
+[frame 608] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 609] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 610] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.060ms
+[frame 611] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.132ms
+[frame 612] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 613] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.155ms
+[frame 614] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.055ms
+[frame 615] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.106ms
+[frame 616] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.133ms
+[frame 617] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.064ms
+[frame 618] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.136ms
+[frame 619] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.178ms
+[frame 620] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.069ms
+[frame 621] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.050ms
+[frame 622] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.051ms
+[frame 623] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.038ms
+[frame 624] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.061ms
+[frame 625] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.041ms
+[frame 626] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.130ms
+[frame 627] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.096ms
+[frame 628] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.101ms
+[frame 629] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.113ms
+[frame 630] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.060ms
+[frame 631] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.163ms
+[frame 632] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.205ms
+[frame 633] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.083ms
+[frame 634] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.036ms
+[frame 635] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.033ms
+[frame 636] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.137ms
+[frame 637] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.053ms
+[frame 638] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.154ms
+[frame 639] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.095ms
+[frame 640] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.085ms
+[frame 641] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.169ms
+[frame 642] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 643] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.113ms
+[frame 644] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 645] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.062ms
+[frame 646] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.130ms
+[frame 647] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.090ms
+[frame 648] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.122ms
+[frame 649] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.100ms
+[frame 650] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.098ms
+[frame 651] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.126ms
+[frame 652] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.099ms
+[frame 653] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.084ms
+[frame 654] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.058ms
+[frame 655] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.110ms
+[frame 656] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 657] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.105ms
+[frame 658] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.077ms
+[frame 659] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.132ms
+[frame 660] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.206ms
+[frame 661] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.107ms
+[frame 662] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.071ms
+[frame 663] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.053ms
+[frame 664] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.050ms
+[frame 665] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.028ms
+[frame 666] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.016ms
+[frame 667] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.022ms
+[frame 668] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.018ms
+[frame 669] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.023ms
+[frame 670] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.130ms
+[frame 671] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.067ms
+[frame 672] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.108ms
+[frame 673] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 674] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.174ms
+[frame 675] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.087ms
+[frame 676] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.082ms
+[frame 677] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.154ms
+[frame 678] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.074ms
+[frame 679] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.173ms
+[frame 680] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.066ms
+[frame 681] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.076ms
+[frame 682] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.037ms
+[frame 683] OK (full pipeline ran)
+sort SKIP: camera pose unchanged (sortPoseCaching)
+render OK: splats=1482523 indexed=1024 instances=1448 chunks=1 multiStage=true encode=0.100ms
+[frame 

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 30 分钟持续渲染帧率曲线 — dazhongkafei</title>
+<style>
+.viz-root {
+  color-scheme: light;
+  --surface-1:      #fcfcfb;
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #8a8885;
+  --grid:           #eceae7;
+  --series-1:       #2a78d6;   /* 540×960 */
+  --series-2:       #eb6834;   /* 1080×1920 */
+  --crosshair:      #c9c7c3;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --text-primary:   #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #8a8885;
+    --grid:           #2a2a28;
+    --series-1:       #3987e5;
+    --series-2:       #d95926;
+    --crosshair:      #4a4a47;
+  }
+}
+:root[data-theme="dark"] .viz-root {
+  color-scheme: dark;
+  --surface-1:      #1a1a19;
+  --text-primary:   #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted:     #8a8885;
+  --grid:           #2a2a28;
+  --series-1:       #3987e5;
+  --series-2:       #d95926;
+  --crosshair:      #4a4a47;
+}
+:root[data-theme="light"] .viz-root { color-scheme: light;
+  --surface-1:      #fcfcfb;
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #8a8885;
+  --grid:           #eceae7;
+  --series-1:       #2a78d6;
+  --series-2:       #eb6834;
+  --crosshair:      #c9c7c3;
+}
+* { box-sizing: border-box; margin: 0; }
+body { background: #f4f3f1; padding: 24px; font-family: -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif; }
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) { background: #141413; }
+}
+body[data-theme="dark"] { background: #141413; }
+.viz-root { background: var(--surface-1); border-radius: 12px; padding: 28px 32px 20px; max-width: 1060px; margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+h1 { font-size: 17px; font-weight: 600; color: var(--text-primary); letter-spacing: -0.01em; }
+.sub { font-size: 13px; color: var(--text-secondary); margin-top: 4px; }
+.meta { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+.legend { display: flex; gap: 24px; margin: 18px 0 6px; align-items: center; }
+.legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-secondary); cursor: default; }
+.legend-item .key { width: 22px; height: 0; border-top: 2px solid; border-radius: 2px; }
+.legend-item.s1 .key { border-color: var(--series-1); }
+.legend-item.s2 .key { border-color: var(--series-2); }
+.legend-item .end { font-size: 12px; color: var(--text-muted); }
+.legend-item .end b { color: var(--text-secondary); font-weight: 600; }
+
+.chart-wrap { position: relative; }
+svg { display: block; width: 100%; height: auto; }
+.axis text { font-size: 11px; fill: var(--text-muted); }
+.axis line, .grid line { stroke: var(--grid); stroke-width: 1px; shape-rendering: crispEdges; }
+.path-s1 { fill: none; stroke: var(--series-1); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.path-s2 { fill: none; stroke: var(--series-2); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.end-label { font-size: 12px; font-weight: 600; fill: var(--text-secondary); }
+.end-dot { stroke: var(--surface-1); stroke-width: 2; }
+.annot { font-size: 11px; fill: var(--text-muted); }
+
+.hover-line { stroke: var(--crosshair); stroke-width: 1px; pointer-events: none; opacity: 0; }
+.hover-dot { opacity: 0; pointer-events: none; stroke: var(--surface-1); stroke-width: 2; }
+.overlay { fill: transparent; cursor: crosshair; }
+
+.tooltip { position: absolute; background: var(--surface-1); border: 1px solid var(--grid); border-radius: 8px;
+  padding: 10px 12px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity .08s;
+  box-shadow: 0 3px 12px rgba(0,0,0,.10); min-width: 168px; }
+.tooltip .t { color: var(--text-secondary); margin-bottom: 6px; font-variant-numeric: tabular-nums; }
+.tooltip .row { display: flex; align-items: center; gap: 8px; margin-top: 3px; }
+.tooltip .row .key { width: 14px; height: 0; border-top: 2px solid; border-radius: 2px; }
+.tooltip .row .name { color: var(--text-secondary); flex: 1; }
+.tooltip .row .val { color: var(--text-primary); font-weight: 600; font-variant-numeric: tabular-nums; }
+.tooltip .row.k1 .key { border-color: var(--series-1); }
+.tooltip .row.k2 .key { border-color: var(--series-2); }
+
+.notes { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--grid); font-size: 12px;
+  color: var(--text-muted); line-height: 1.55; }
+.notes b { color: var(--text-secondary); font-weight: 600; }
+table.data-table { margin-top: 10px; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
+table.data-table th, table.data-table td { padding: 4px 14px 4px 0; text-align: right; color: var(--text-secondary); }
+table.data-table th { color: var(--text-muted); font-weight: 500; text-align: right; }
+table.data-table th:first-child, table.data-table td:first-child { text-align: left; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <h1>iPhone 17 Pro Max 持续渲染 30 分钟帧率曲线</h1>
+  <div class="sub">dazhongkafei 3DGS 模型（可见 148 万 splat）· vsync 呈现帧率 · 固定视角</div>
+  <div class="meta">2026-11-12 · 每帧遥测聚合为 10 秒窗口均值 · 540 轮启动前冷却 3min、两轮间隔 5min（标准协议为 10min）</div>
+
+  <div class="legend">
+    <div class="legend-item s1"><span class="key"></span>540×960 <span class="end">均 <b>29.4</b> FPS</span></div>
+    <div class="legend-item s2"><span class="key"></span>1080×1920 <span class="end">均 <b>20.2</b> FPS</span></div>
+  </div>
+
+  <div class="chart-wrap">
+    <svg id="chart" viewBox="0 0 1000 420" role="img" aria-label="30 分钟帧率衰减曲线，540×960 从 41 降至 25 FPS，1080×1920 从 26 降至 18 FPS"></svg>
+    <div class="tooltip" id="tooltip"></div>
+  </div>
+
+  <div class="notes">
+    <b>读法</b>：两轮均呈“前 8 分钟快衰（boost 耗尽）+ 之后缓降（热平衡逼近，30min 仍未饱和）”。
+    热尾离屏实测 GPU 单帧变慢：540 +60%（19.1→30.5ms）、1080 +94%（25.0→48.5ms）——帧率曲线是 vsync 量化后的观感，热变慢实质更大。<br>
+    <b>附表</b>（每 5 分钟 FPS）：
+    <table class="data-table" id="tbl"></table>
+  </div>
+</div>
+
+<script>
+const DATA = {q540: [[0, 42.15], [10, 41.98], [20, 41.58], [30, 41.3], [40, 40.97], [50, 40.73], [60, 40.38], [70, 40.32], [80, 39.9], [90, 39.91], [100, 39.98], [110, 39.85], [120, 39.96], [130, 39.93], [140, 39.83], [150, 39.86], [160, 39.74], [170, 39.86], [180, 39.98], [190, 39.83], [200, 39.88], [210, 39.7], [220, 39.53], [230, 38.83], [240, 38.2], [250, 37.37], [260, 36.55], [270, 35.8], [280, 35.21], [290, 35.0], [300, 34.48], [310, 34.58], [320, 34.29], [330, 33.43], [340, 33.28], [350, 33.07], [360, 32.95], [370, 31.99], [380, 32.17], [390, 32.06], [400, 31.56], [410, 31.75], [420, 31.78], [430, 31.58], [440, 30.9], [450, 30.9], [460, 30.65], [470, 30.55], [480, 30.43], [490, 30.32], [500, 30.18], [510, 30.39], [520, 30.1], [530, 30.21], [540, 29.96], [550, 29.49], [560, 28.53], [570, 27.78], [580, 27.13], [590, 26.72], [600, 26.76], [610, 26.88], [620, 27.29], [630, 27.64], [640, 27.88], [650, 28.15], [660, 28.4], [670, 28.25], [680, 28.32], [690, 28.11], [700, 28.0], [710, 27.91], [720, 27.75], [730, 27.57], [740, 27.52], [750, 27.63], [760, 27.65], [770, 27.58], [780, 27.82], [790, 27.78], [800, 27.8], [810, 28.08], [820, 27.94], [830, 27.96], [840, 28.09], [850, 28.22], [860, 28.14], [870, 27.99], [880, 28.01], [890, 28.14], [900, 28.14], [910, 28.16], [920, 28.06], [930, 28.06], [940, 27.98], [950, 27.8], [960, 27.6], [970, 27.9], [980, 27.92], [990, 27.79], [1000, 27.84], [1010, 27.94], [1020, 27.53], [1030, 27.83], [1040, 27.76], [1050, 27.62], [1060, 27.42], [1070, 27.49], [1080, 27.45], [1090, 27.23], [1100, 27.38], [1110, 27.38], [1120, 27.25], [1130, 27.06], [1140, 27.31], [1150, 27.07], [1160, 27.06], [1170, 26.74], [1180, 27.05], [1190, 26.99], [1200, 26.92], [1210, 26.88], [1220, 26.85], [1230, 26.9], [1240, 26.87], [1250, 26.37], [1260, 26.56], [1270, 26.63], [1280, 26.6], [1290, 26.57], [1300, 26.5], [1310, 26.52], [1320, 26.19], [1330, 26.36], [1340, 26.22], [1350, 26.23], [1360, 26.16], [1370, 26.01], [1380, 26.26], [1390, 26.16], [1400, 25.98], [1410, 26.03], [1420, 26.03], [1430, 25.96], [1440, 25.74], [1450, 25.92], [1460, 25.86], [1470, 25.78], [1480, 25.72], [1490, 25.57], [1500, 25.57], [1510, 25.52], [1520, 25.44], [1530, 25.49], [1540, 25.5], [1550, 25.07], [1560, 25.27], [1570, 25.29], [1580, 25.21], [1590, 25.19], [1600, 25.16], [1610, 25.17], [1620, 25.14], [1630, 24.92], [1640, 25.13], [1650, 24.99], [1660, 25.1], [1670, 24.98], [1680, 25.01], [1690, 24.91], [1700, 24.88], [1710, 24.74], [1720, 24.85], [1730, 24.81], [1740, 24.74], [1750, 24.64], [1760, 24.61], [1770, 24.61], [1780, 24.62], [1790, 24.55], [1800, 24.58]], q1080: [[0, 37.58], [10, 35.55], [20, 33.97], [30, 30.38], [40, 26.83], [50, 23.61], [60, 21.62], [70, 21.12], [80, 21.74], [90, 22.57], [100, 23.24], [110, 23.63], [120, 23.73], [130, 23.81], [140, 23.57], [150, 23.39], [160, 23.12], [170, 23.0], [180, 22.9], [190, 22.8], [200, 22.64], [210, 22.5], [220, 22.33], [230, 22.37], [240, 22.25], [250, 22.13], [260, 22.12], [270, 22.02], [280, 22.01], [290, 22.01], [300, 21.84], [310, 21.62], [320, 21.19], [330, 21.43], [340, 21.37], [350, 21.36], [360, 21.36], [370, 21.27], [380, 21.26], [390, 21.26], [400, 21.18], [410, 21.22], [420, 21.3], [430, 21.29], [440, 21.28], [450, 21.18], [460, 21.27], [470, 21.28], [480, 21.21], [490, 21.17], [500, 21.18], [510, 21.08], [520, 21.07], [530, 21.04], [540, 21.03], [550, 20.97], [560, 20.9], [570, 20.85], [580, 20.84], [590, 20.78], [600, 20.73], [610, 20.73], [620, 20.73], [630, 20.73], [640, 20.63], [650, 20.65], [660, 20.53], [670, 20.55], [680, 20.57], [690, 20.42], [700, 20.46], [710, 20.36], [720, 20.32], [730, 20.34], [740, 20.32], [750, 20.26], [760, 20.35], [770, 20.35], [780, 20.28], [790, 20.29], [800, 20.29], [810, 20.2], [820, 20.14], [830, 20.01], [840, 20.08], [850, 20.14], [860, 20.02], [870, 20.0], [880, 19.86], [890, 19.84], [900, 19.78], [910, 19.75], [920, 19.73], [930, 19.72], [940, 19.67], [950, 19.55], [960, 19.54], [970, 19.54], [980, 19.46], [990, 19.45], [1000, 19.38], [1010, 19.37], [1020, 19.38], [1030, 19.3], [1040, 19.31], [1050, 19.14], [1060, 19.22], [1070, 19.15], [1080, 19.09], [1090, 19.07], [1100, 19.1], [1110, 19.09], [1120, 19.09], [1130, 19.03], [1140, 18.96], [1150, 18.84], [1160, 18.85], [1170, 18.85], [1180, 18.88], [1190, 18.81], [1200, 18.83], [1210, 18.8], [1220, 18.74], [1230, 18.65], [1240, 18.55], [1250, 18.65], [1260, 18.58], [1270, 18.54], [1280, 18.54], [1290, 18.53], [1300, 18.53], [1310, 18.48], [1320, 18.5], [1330, 18.47], [1340, 18.49], [1350, 18.35], [1360, 18.39], [1370, 18.43], [1380, 18.44], [1390, 18.4], [1400, 18.3], [1410, 18.36], [1420, 18.24], [1430, 18.31], [1440, 18.23], [1450, 18.33], [1460, 18.26], [1470, 18.23], [1480, 18.27], [1490, 18.34], [1500, 18.3], [1510, 18.31], [1520, 18.3], [1530, 18.27], [1540, 18.24], [1550, 18.25], [1560, 18.26], [1570, 18.23], [1580, 18.06], [1590, 18.27], [1600, 18.13], [1610, 18.16], [1620, 18.16], [1630, 18.21], [1640, 18.22], [1650, 18.13], [1660, 18.12], [1670, 18.25], [1680, 18.15], [1690, 18.17], [1700, 18.17], [1710, 18.2], [1720, 18.12], [1730, 18.14], [1740, 18.14], [1750, 18.18], [1760, 18.2], [1770, 18.17], [1780, 18.17], [1790, 18.18], [1800, 19.02]]};
+const cfg = {
+  s1: { name: '540×960', color: 'var(--series-1)', data: DATA.q540 },
+  s2: { name: '1080×1920', color: 'var(--series-2)', data: DATA.q1080 },
+};
+const W = 1000, H = 420;
+const M = { t: 24, r: 96, b: 34, l: 46 };
+const X0 = 0, X1 = 1800;           // seconds
+let Y1 = 50;                        // fps top
+
+const svg = document.getElementById('chart');
+const NS = 'http://www.w3.org/2000/svg';
+function el(name, attrs, parent) {
+  const e = document.createElementNS(NS, name);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  (parent || svg).appendChild(e);
+  return e;
+}
+const x = t => M.l + (t - X0) / (X1 - X0) * (W - M.l - M.r);
+const y = v => H - M.b - v / Y1 * (H - M.t - M.b);
+
+// --- grid + axes ---
+const yTicks = [0, 10, 20, 30, 40, 50];
+for (const v of yTicks) {
+  el('line', { x1: M.l, x2: W - M.r, y1: y(v), y2: y(v), class: 'grid' });
+  const t = el('text', { x: M.l - 8, y: y(v) + 4, 'text-anchor': 'end' });
+  t.textContent = v;
+  t.setAttribute('class', 'axis');
+}
+// x ticks every 5 min
+for (let m = 0; m <= 30; m += 5) {
+  const px = x(m * 60);
+  el('line', { x1: px, x2: px, y1: H - M.b, y2: H - M.b + 6, class: 'axis' });
+  const t = el('text', { x: px, y: H - M.b + 20, 'text-anchor': 'middle' });
+  t.textContent = m === 0 ? '0' : (m + 'min');
+  t.setAttribute('class', 'axis');
+}
+// axis captions
+const ycap = el('text', { x: 12, y: M.t - 8, 'font-size': 11, fill: 'var(--text-muted)' });
+ycap.textContent = 'FPS';
+const xcap = el('text', { x: W - M.r, y: H - M.b + 34, 'text-anchor': 'end', 'font-size': 11, fill: 'var(--text-muted)' });
+xcap.textContent = '渲染时长';
+
+// --- series ---
+const hoverDots = {};
+for (const key of ['s1', 's2']) {
+  const s = cfg[key];
+  const d = s.data.map((pt, i) => (i ? 'L' : 'M') + x(pt[0]).toFixed(1) + ' ' + y(pt[1]).toFixed(1)).join(' ');
+  el('path', { d, class: 'path-' + key });
+  // end dot + label
+  const last = s.data[s.data.length - 1];
+  el('circle', { cx: x(last[0]), cy: y(last[1]), r: 4, fill: s.color, class: 'end-dot' });
+  const lb = el('text', { x: x(last[0]) + 10, y: y(last[1]) + 4, class: 'end-label' });
+  lb.textContent = last[1].toFixed(1) + ' FPS';
+  // start dot
+  const first = s.data[0];
+  el('circle', { cx: x(first[0]), cy: y(first[1]), r: 4, fill: s.color, class: 'end-dot' });
+  // hover dot
+  hoverDots[key] = el('circle', { r: 5, fill: s.color, class: 'hover-dot' });
+}
+
+// --- annotations: 快衰/缓衰 phase marker (recessive) ---
+const ph1 = el('text', { x: x(240), y: M.t + 4, 'text-anchor': 'middle', class: 'annot' });
+ph1.textContent = '← 快衰期（boost 耗尽）';
+const ph2 = el('text', { x: x(1000), y: M.t + 4, 'text-anchor': 'middle', class: 'annot' });
+ph2.textContent = '缓衰期（热平衡逼近）→';
+
+// --- hover layer ---
+const vline = el('line', { x1: 0, x2: 0, y1: M.t, y2: H - M.b, class: 'hover-line' });
+const overlay = el('rect', { x: M.l, y: M.t, width: W - M.l - M.r, height: H - M.t - M.b, class: 'overlay' });
+const tooltip = document.getElementById('tooltip');
+const wrap = document.querySelector('.chart-wrap');
+
+function fmtT(sec) {
+  const m = Math.floor(sec / 60), s = Math.round(sec % 60);
+  return m + ':' + String(s).padStart(2, '0');
+}
+overlay.addEventListener('pointermove', (ev) => {
+  const rect = svg.getBoundingClientRect();
+  const px = (ev.clientX - rect.left) / rect.width * W;
+  const tSec = Math.max(0, Math.min(X1, (px - M.l) / (W - M.l - M.r) * (X1 - X0)));
+  // snap to nearest 10s bucket
+  const snap = Math.round(tSec / 10) * 10;
+  vline.setAttribute('x1', x(snap)); vline.setAttribute('x2', x(snap));
+  vline.style.opacity = 1;
+  let rows = '';
+  for (const key of ['s1', 's2']) {
+    const s = cfg[key];
+    const pt = s.data.find(p => p[0] === snap) || (() => {
+      let best = s.data[0], bd = 1e9;
+      for (const p of s.data) { const d = Math.abs(p[0] - snap); if (d < bd) { bd = d; best = p; } }
+      return best;
+    })();
+    hoverDots[key].setAttribute('cx', x(pt[0]));
+    hoverDots[key].setAttribute('cy', y(pt[1]));
+    hoverDots[key].style.opacity = 1;
+    rows += '<div class="row k' + key.slice(1) + '"><span class="key"></span><span class="name"></span><span class="val"></span></div>';
+    tooltip.innerHTML = '<div class="t"></div>' + rows;
+    tooltip.querySelector('.t').textContent = 't = ' + fmtT(snap);
+    const rowEls = tooltip.querySelectorAll('.row');
+    const vals = [cfg.s1, cfg.s2].map(s => {
+      let best = s.data[0], bd = 1e9;
+      for (const p of s.data) { const d = Math.abs(p[0] - snap); if (d < bd) { bd = d; best = p; } }
+      return best[1];
+    });
+    rowEls[0].querySelector('.name').textContent = '540×960';
+    rowEls[0].querySelector('.val').textContent = vals[0].toFixed(1) + ' FPS';
+    rowEls[1].querySelector('.name').textContent = '1080×1920';
+    rowEls[1].querySelector('.val').textContent = vals[1].toFixed(1) + ' FPS';
+  }
+  // position tooltip
+  const ttRect = tooltip.getBoundingClientRect();
+  const wrapRect = wrap.getBoundingClientRect();
+  let left = ev.clientX - wrapRect.left + 16;
+  if (left + ttRect.width > wrapRect.width) left = ev.clientX - wrapRect.left - ttRect.width - 16;
+  let top = Math.min(ev.clientY - wrapRect.top - 10, wrapRect.height - ttRect.height - 8);
+  tooltip.style.left = left + 'px';
+  tooltip.style.top = Math.max(0, top) + 'px';
+  tooltip.style.opacity = 1;
+});
+overlay.addEventListener('pointerleave', () => {
+  vline.style.opacity = 0; tooltip.style.opacity = 0;
+  for (const k in hoverDots) hoverDots[k].style.opacity = 0;
+});
+
+// --- table view (每 5min) ---
+(function buildTable() {
+  const tbl = document.getElementById('tbl');
+  const thead = document.createElement('thead');
+  thead.innerHTML = '';
+  const hrow = document.createElement('tr');
+  for (const h of ['时间', '0:00', '5:00', '10:00', '15:00', '20:00', '25:00', '30:00']) {
+    const th = document.createElement('th'); th.textContent = h; hrow.appendChild(th);
+  }
+  thead.appendChild(hrow); tbl.appendChild(thead);
+  const tbody = document.createElement('tbody');
+  for (const key of ['s1', 's2']) {
+    const s = cfg[key];
+    const tr = document.createElement('tr');
+    const label = document.createElement('td'); label.textContent = s.name; tr.appendChild(label);
+    for (const m of [0, 5, 10, 15, 20, 25, 30]) {
+      // nearest 10s bucket to the minute mark (min0 用 30s 桶避开启动冲刺)
+      const target = m === 0 ? 30 : m * 60;
+      let best = s.data[0], bd = 1e9;
+      for (const p of s.data) { const d = Math.abs(p[0] - target); if (d < bd) { bd = d; best = p; } }
+      const td = document.createElement('td'); td.textContent = best[1].toFixed(1); tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+  tbl.appendChild(tbody);
+})();
+</script>
+</body>
+</html>
