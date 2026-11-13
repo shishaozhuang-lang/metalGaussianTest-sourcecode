@@ -2,6 +2,7 @@
 
 > 本文档分析 MetalSplatter 的完整 3DGS 渲染方案：架构分层、每帧执行路径、关键数据结构、并发模型与优化机制。
 > 静态视角下每帧执行情况的实测结论见 `RenderFlow-Static-Camera-Analysis.md`。
+> 数据格式与精度（文件格式量化、GPU 布局、Float16/UInt8 压缩）见 [Data-Format-Precision-Analysis.md](Data-Format-Precision-Analysis.md)。
 
 ## 1. 架构分层
 
