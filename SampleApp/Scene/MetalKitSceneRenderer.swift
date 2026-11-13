@@ -45,6 +45,9 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
 
     var drawableSize: CGSize = .zero
 
+    /// Monotonic counter of MTKView draw() invocations, for --frame-log.
+    private var frameLogCounter = 0
+
     // Keys currently held down; updated by the local keyboard event monitor.
     var pressedKeys: Set<KeyEquivalent> = []
 
@@ -76,6 +79,11 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
     /// --no-present skips present() so the render loop is not gated by the
     /// display vsync — measures pure pipeline throughput.
     static let noPresentEnabled = ProcessInfo.processInfo.arguments.contains("--no-present")
+
+    /// --frame-log prints a per-frame line to stdout marking whether the full
+    /// 3DGS render pipeline ran (or why the frame was skipped) — used to verify
+    /// that every frame executes the complete pipeline under a fixed camera.
+    static let frameLogEnabled = ProcessInfo.processInfo.arguments.contains("--frame-log")
 
     /// --max-fps=N: frame-rate cap (N>0); --max-fps=0: uncapped peak-throughput mode.
     static func requestedMaxFPS() -> Int? {
@@ -165,6 +173,8 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
         switch model {
         case .gaussianSplat(let url, let viewConfiguration):
             sceneViewConfiguration = viewConfiguration
+            SplatRenderer.debugLogFrames = Self.frameLogEnabled
+            SplatRenderer.debugLogSorts = Self.frameLogEnabled
             let performanceOptions = Self.performanceOptimizationOptionsFromArguments()
             let splat = try SplatRenderer(device: device,
                                           colorFormat: metalKitView.colorPixelFormat,
@@ -296,15 +306,7 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
 
         let viewport = MTLViewport(originX: 0, originY: 0, width: renderSize.width, height: renderSize.height, znear: 0, zfar: 1)
 
-#if os(iOS)
-        // Use a reproducible world-space camera pose for iPhone performance tests.
-        // The view matrix is the inverse of the camera's world transform.
-        var initialCameraTransform = simd_float4x4(Constants.initialCameraRotation)
-        initialCameraTransform.columns.3 = SIMD4<Float>(Constants.initialCameraPosition, 1)
-        let viewMatrix = initialCameraTransform.inverse * pitchMatrix * yawMatrix
-#else
         let viewMatrix = translationMatrix * initialRotationMatrix * pitchMatrix * yawMatrix * commonUpCalibration
-#endif
 
         // Compute movement against the pre-offset view matrix so direction follows
         // the camera's (rotation-only) heading, not an offset-shifted basis.
@@ -357,8 +359,7 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
             lastRotationUpdateTimestamp = now
         }
 
-        guard Self.perfRecordingEnabled
-                || (cameraControls?.autoRotationEnabled ?? true),
+        guard cameraControls?.autoRotationEnabled ?? true,
               let lastRotationUpdateTimestamp else { return }
         rotation += Constants.rotationPerSecond * now.timeIntervalSince(lastRotationUpdateTimestamp)
     }
@@ -566,18 +567,35 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
         let elapsed = Double(DispatchTime.now().uptimeNanoseconds - start.uptimeNanoseconds) / 1e9
         let fps = elapsed > 0 ? Double(rendered) / elapsed : 0
         let frameMs = rendered > 0 ? elapsed / Double(rendered) * 1000 : 0
-        print("BENCH-RESULT: \(rendered) frames in \(String(format: "%.3f", elapsed))s → \(String(format: "%.1", fps)) FPS (frame \(String(format: "%.3f", frameMs)) ms)", terminator: ""); fflush(stdout)
+        print("BENCH-RESULT: \(rendered) frames in \(String(format: "%.3f", elapsed))s → \(String(format: "%.1f", fps)) FPS (frame \(String(format: "%.3f", frameMs)) ms)", terminator: ""); fflush(stdout)
+        exit(0)
     }
 
     func draw(in view: MTKView) {
-        guard let modelRenderer, modelRenderer.isReadyToRender else { return }
-        guard let drawable = view.currentDrawable else { return }
-        guard let colorTexture = renderTarget(for: drawable) else { return }
+        frameLogCounter += 1
+        let frameIndex = frameLogCounter
+        func skipLog(_ reason: String) {
+            if Self.frameLogEnabled { print("[frame \(frameIndex)] SKIP: \(reason)") }
+        }
+
+        guard let modelRenderer, modelRenderer.isReadyToRender else {
+            skipLog("modelRenderer nil or not ready to render")
+            return
+        }
+        guard let drawable = view.currentDrawable else {
+            skipLog("no drawable")
+            return
+        }
+        guard let colorTexture = renderTarget(for: drawable) else {
+            skipLog("no render target texture")
+            return
+        }
 
         _ = inFlightSemaphore.wait(timeout: DispatchTime.distantFuture)
 
         guard let commandBuffer = commandQueue.makeCommandBuffer() else {
             inFlightSemaphore.signal()
+            skipLog("no command buffer")
             return
         }
 
@@ -603,7 +621,14 @@ class MetalKitSceneRenderer: NSObject, MTKViewDelegate {
             didRender = false
         }
 
+        if Self.frameLogEnabled && !didRender {
+            print("[frame \(frameIndex)] SKIP: render() returned false")
+        }
+
         if didRender {
+            if Self.frameLogEnabled {
+                print("[frame \(frameIndex)] OK (full pipeline ran)")
+            }
             if fixedRenderSize != nil {
                 imageScaler.encode(commandBuffer: commandBuffer,
                                    sourceTexture: colorTexture,

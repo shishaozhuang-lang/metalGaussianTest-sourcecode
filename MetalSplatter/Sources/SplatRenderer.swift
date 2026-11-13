@@ -128,6 +128,21 @@ public final class SplatRenderer: @unchecked Sendable {
         Logger(subsystem: Bundle.module.bundleIdentifier!,
                category: "SplatRenderer")
 
+    /// When true, `render()` prints a line to stdout for each invocation:
+    /// "render OK" with splat/instance/encode stats, or "render SKIP: <reason>"
+    /// at each early-return. Used to verify every frame runs the full pipeline.
+    /// Written once at load time before any render/sort activity; read-only after.
+    public nonisolated(unsafe) static var debugLogFrames = false
+
+    /// When true, the background sort loop logs each sort decision:
+    /// "sort SKIP: <reason>" (pose unchanged / rate-limited) and
+    /// "sort START/DONE" with counts and duration. Combine with
+    /// `debugLogFrames` to see render-vs-sort activity per frame.
+    public static var debugLogSorts: Bool {
+        get { SplatSorter.debugLogSorts }
+        set { SplatSorter.debugLogSorts = newValue }
+    }
+
     public struct ViewportDescriptor {
         public var viewport: MTLViewport
         public var projectionMatrix: simd_float4x4
@@ -1077,6 +1092,7 @@ public final class SplatRenderer: @unchecked Sendable {
                 break
             }
             if Date() >= deadline {
+                if Self.debugLogFrames { print("render SKIP: access timeout (exclusive access or max in-flight)") }
                 return false
             }
             Thread.sleep(forTimeInterval: 0.001)
@@ -1125,7 +1141,10 @@ public final class SplatRenderer: @unchecked Sendable {
             }
         }
         telemetry.obtainSortBufferMs = Self.telemetryMs(since: sortBufferStart)
-        guard let splatIndexBuffer else { return false }
+        guard let splatIndexBuffer else {
+            if Self.debugLogFrames { print("render SKIP: no sorted index buffer available") }
+            return false
+        }
 
         commandBuffer.addCompletedHandler { [sorter, weak self] _ in
             self?.renderCompleted()
@@ -1137,7 +1156,10 @@ public final class SplatRenderer: @unchecked Sendable {
         renderCompletionScheduled = true
 
         let splatCount = splatIndexBuffer.count
-        guard splatCount != 0 else { return false }
+        guard splatCount != 0 else {
+            if Self.debugLogFrames { print("render SKIP: zero splats after culling") }
+            return false
+        }
 
         let indexedSplatCount = min(splatCount, maxIndexedSplatCount)
         let instanceCount = (splatCount + indexedSplatCount - 1) / indexedSplatCount
@@ -1168,6 +1190,7 @@ public final class SplatRenderer: @unchecked Sendable {
         // Build chunks buffer (from pool if available) — includes all chunks with enabled flag
         let chunksBufferStart = Self.telemetryNowNs()
         guard let chunksBuffer = buildChunksBuffer(allChunks: allChunks) else {
+            if Self.debugLogFrames { print("render SKIP: failed to build chunks buffer") }
             return false
         }
         telemetry.chunksBufferMs = Self.telemetryMs(since: chunksBufferStart)
@@ -1203,6 +1226,7 @@ public final class SplatRenderer: @unchecked Sendable {
             do {
                 try renderState.triangleVertexIndexBuffer.ensureCapacity(triangleVertexCount)
             } catch {
+                if Self.debugLogFrames { print("render SKIP: index buffer capacity failure") }
                 return false
             }
             renderState.triangleVertexIndexBuffer.count = triangleVertexCount
@@ -1220,7 +1244,10 @@ public final class SplatRenderer: @unchecked Sendable {
         if multiStage {
             guard let initializePipelineState = renderState.initializePipelineState,
                   let drawSplatPipelineState = renderState.drawSplatPipelineState
-            else { return false }
+            else {
+                if Self.debugLogFrames { print("render SKIP: multi-stage pipeline state missing") }
+                return false
+            }
 
             renderEncoder.pushDebugGroup("Initialize")
             renderEncoder.setRenderPipelineState(initializePipelineState)
@@ -1232,7 +1259,10 @@ public final class SplatRenderer: @unchecked Sendable {
             renderEncoder.setDepthStencilState(renderState.drawSplatDepthState)
         } else {
             guard let singleStagePipelineState = renderState.singleStagePipelineState
-            else { return false }
+            else {
+                if Self.debugLogFrames { print("render SKIP: single-stage pipeline state missing") }
+                return false
+            }
 
             renderEncoder.pushDebugGroup("Draw Splats")
             renderEncoder.setRenderPipelineState(singleStagePipelineState)
@@ -1294,6 +1324,11 @@ public final class SplatRenderer: @unchecked Sendable {
             }
         }
         telemetry.totalEncodeMs = Self.telemetryMs(since: totalStart)
+        if Self.debugLogFrames {
+            print(String(format: "render OK: splats=%d indexed=%d instances=%d chunks=%d multiStage=%@ encode=%.3fms",
+                         splatCount, indexedSplatCount, instanceCount, allChunks.count,
+                         multiStage ? "true" : "false", telemetry.totalEncodeMs))
+        }
         onRenderTelemetry?(telemetry)
         return true
     }

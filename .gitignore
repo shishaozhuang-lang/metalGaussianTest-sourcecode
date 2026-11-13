@@ -22,3 +22,13 @@ SampleApp/Scenes/*/point_cloud.ply
 PLYIO/hailuo/*.ply
 
 PLYIO/hailuo/*.mp4
+
+# dazhongkafei model data (large PLY)
+PLYIO/dazhongkafei/*.ply
+
+# Local build scratch & one-off Instruments traces (multi-G, see Docs/*/data/trace)
+.ios-device-build/
+Launch_MetalSplatter SampleApp_*.trace/
+
+# Full Instruments trace bundles (keep the exported XML summaries in Docs)
+Docs/*/data/trace/*.trace

@@ -83,6 +83,13 @@ class SplatSorter: @unchecked Sendable {
     private static var bufferCount: Int { 3 }
     private static var pollIntervalNanoseconds: UInt64 { 1_000_000 } // 1ms
 
+    /// When true, `updateCameraPose()` and the sort loop print a line to stdout
+    /// for each sort decision: "sort SKIP: <reason>" or "sort START/DONE".
+    /// Set alongside `SplatRenderer.debugLogFrames` to trace, per frame, whether
+    /// the CPU sort was skipped while the GPU render still runs at full rate.
+    /// Written once at load time before any render/sort activity; read-only after.
+    nonisolated(unsafe) static var debugLogSorts = false
+
     // MARK: - Types
 
     /// Represents a chunk for sorting purposes
@@ -360,13 +367,19 @@ class SplatSorter: @unchecked Sendable {
         let now = ContinuousClock.now
         let requested = state.withLock { state -> Bool in
             let pose = CameraPose(position: position, forward: forward)
-            guard !performanceOptimizationOptions.contains(.sortPoseCaching) || pose != state.cameraPose || visibility != state.visibility else { return false }
+            guard !performanceOptimizationOptions.contains(.sortPoseCaching) || pose != state.cameraPose || visibility != state.visibility else {
+                if Self.debugLogSorts { print("sort SKIP: camera pose unchanged (sortPoseCaching)") }
+                return false
+            }
             state.cameraPose = pose
             state.visibility = visibility
 
             // During direct manipulation, coalesce camera updates to 12 Hz.
             if performanceOptimizationOptions.contains(.interactionSortRateLimit), state.isInteracting, let last = state.lastSortRequestTime,
-               last.duration(to: now) < .milliseconds(83) { return false }
+               last.duration(to: now) < .milliseconds(83) {
+                if Self.debugLogSorts { print("sort SKIP: interaction rate limit (12 Hz coalescing)") }
+                return false
+            }
             state.lastSortRequestTime = now
             state.needsSort = true
             return true
@@ -627,6 +640,11 @@ class SplatSorter: @unchecked Sendable {
                 continue
             }
 
+            if Self.debugLogSorts {
+                let totalSplatCount = params.chunks.reduce(0) { $0 + $1.buffer.count }
+                print(String(format: "sort START: %d splats (pose-changed or invalidated)", totalSplatCount))
+            }
+
             // Perform the sort
             await performSort(
                 chunks: params.chunks,
@@ -755,6 +773,10 @@ class SplatSorter: @unchecked Sendable {
         // Notify completion (even if invalidated, the sort work was done)
         if !wasInvalidated {
             let duration = -startTime.timeIntervalSinceNow
+            if Self.debugLogSorts {
+                print(String(format: "sort DONE: %d visible of %d total, %.3f ms",
+                             targetBuffer.count, totalSplatCount, duration * 1000))
+            }
             onSortComplete?(duration)
 
             // Fire one-shot sort completion handlers outside the lock
